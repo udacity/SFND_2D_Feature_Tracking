@@ -37,7 +37,7 @@ int main(int argc, const char *argv[])
 
     // misc
     int dataBufferSize = 2;       // no. of images which are held in memory (ring buffer) at the same time
-    vector<DataFrame> dataBuffer; // list of data frames which are held in memory at the same time
+    vector<DataFrame> dataBuffer(dataBufferSize); // list of data frames which are held in memory at the same time
     bool bVis = false;            // visualize results
 
     /* MAIN LOOP OVER ALL IMAGES */
@@ -60,9 +60,19 @@ int main(int argc, const char *argv[])
         //// TASK MP.1 -> replace the following code with ring buffer of size dataBufferSize
 
         // push image into data frame buffer
-        DataFrame frame;
-        frame.cameraImg = imgGray;
-        dataBuffer.push_back(frame);
+        if( imgIndex < 2 )
+        {
+        	DataFrame frame;
+        	frame.cameraImg = imgGray;
+        	dataBuffer.push_back(frame);
+        }
+        else
+        {
+        	DataFrame frame;
+        	frame.cameraImg = imgGray;
+        	dataBuffer.push_back(frame);
+        	dataBuffer.erase(dataBuffer.end()-1); //delet last element
+        }
 
         //// EOF STUDENT ASSIGNMENT
         cout << "#1 : LOAD IMAGE INTO BUFFER done" << endl;
