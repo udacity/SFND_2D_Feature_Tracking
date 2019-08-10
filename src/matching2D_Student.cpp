@@ -3,6 +3,13 @@
 
 using namespace std;
 
+using cv::ORB;
+using cv::BRISK;
+using cv::AKAZE;
+using cv::FastFeatureDetector;
+using cv::xfeatures2d::SIFT;
+
+
 // Find best matches for keypoints in two camera images based on several matching methods
 void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::KeyPoint> &kPtsRef, cv::Mat &descSource, cv::Mat &descRef,
                       std::vector<cv::DMatch> &matches, std::string descriptorType, std::string matcherType, std::string selectorType)
@@ -39,25 +46,64 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
 {
     // select appropriate descriptor
     cv::Ptr<cv::DescriptorExtractor> extractor;
+    
+
     if (descriptorType.compare("BRISK") == 0)
     {
-
         int threshold = 30;        // FAST/AGAST detection threshold score.
         int octaves = 3;           // detection octaves (use 0 to do single scale)
         float patternScale = 1.0f; // apply this scale to the pattern used for sampling the neighbourhood of a keypoint.
 
-        extractor = cv::BRISK::create(threshold, octaves, patternScale);
+        extractor = BRISK::create(threshold, octaves, patternScale);
+        // perform feature description
+        double t = (double)cv::getTickCount();    
+        extractor->compute(img, keypoints, descriptors);
+        t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
+        
     }
-    else
+    //  ---------------------------assignments-------------------------------------------------------
+    else if(descriptorType.compare("FAST") == 0)
     {
-
-        //...
+        //... FAST
+        int threshold = 30;
+        bool nonMaxSuppression = true;
+        extractor = FastFeatureDetector::create(threshold, nonMaxSuppression);
+        // perform feature description
+        double t = (double)cv::getTickCount(); 
+        extractor->detect(img, keypoints);       
+        t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
+    }
+    else if (descriptorType.compare("AKAZE") == 0)
+    {
+        //  AKAZE
+        cv::Mat mask;
+        extractor = AKAZE::create();
+        // perform feature description
+        double t = (double)cv::getTickCount();
+        extractor->detectAndCompute(img, mask, keypoints, descriptors);
+        t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
+    }
+    else if(descriptorType.compare("ORB") == 0)
+    {
+        // ORB
+        cv::Mat mask;
+        extractor = ORB::create();
+        // perform feature description
+        double t = (double)cv::getTickCount();
+        extractor->detectAndCompute(img,mask,keypoints,descriptors);
+        t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
+    }
+    else if(descriptorType.compare("SIFT") == 0)
+    {
+        //SIFT
+        cv::Mat mask;
+        extractor = SIFT::create();
+        // perform feature description
+        double t = (double)cv::getTickCount();
+        extractor->detectAndCompute(img, mask, keypoints, descriptors);
+        t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
     }
 
-    // perform feature description
-    double t = (double)cv::getTickCount();
-    extractor->compute(img, keypoints, descriptors);
-    t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
     cout << descriptorType << " descriptor extraction in " << 1000 * t / 1.0 << " ms" << endl;
 }
 

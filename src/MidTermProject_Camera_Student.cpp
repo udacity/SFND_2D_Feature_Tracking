@@ -91,10 +91,35 @@ int main(int argc, const char *argv[])
         {
             detKeypointsShiTomasi(keypoints, imgGray, false);
         }
-        else
+        else if(detectorType.compare("HARRIS") == 0)
+        {
+            //...detKeypointsHarris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis=false);
+            detKeypointsHarris(keypoints, imgGray, false);
+        }
+        else if(detectorType.compare("BRISK") == 0)
         {
             //...
+            cv::Mat mask;
+            cv::Mat descriptors;
+            detectAndCompute(img,mask,keypoints,descriptors,false );
+
         }
+        else if(detectorType.compare("ORB") == 0)
+        {
+            //...
+            
+        }
+        else if(detectorType.compare("AKAZE") == 0)
+        {
+            //...
+            
+        }
+        else
+        {
+            //SIFT
+            
+        }
+        
         //// EOF STUDENT ASSIGNMENT
 
         //// STUDENT ASSIGNMENT
