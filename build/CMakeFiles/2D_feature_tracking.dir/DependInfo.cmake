@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/osboxes/SFND_2D_Feature_Tracking/src/MidTermProject_Camera_Student.cpp" "/home/osboxes/SFND_2D_Feature_Tracking/build/CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.o"
-  "/home/osboxes/SFND_2D_Feature_Tracking/src/matching2D_Student.cpp" "/home/osboxes/SFND_2D_Feature_Tracking/build/CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.o"
+  "/Users/tongling/Desktop/SFND_2D_Feature_Tracking/src/MidTermProject_Camera_Student.cpp" "/Users/tongling/Desktop/SFND_2D_Feature_Tracking/build/CMakeFiles/2D_feature_tracking.dir/src/MidTermProject_Camera_Student.cpp.o"
+  "/Users/tongling/Desktop/SFND_2D_Feature_Tracking/src/matching2D_Student.cpp" "/Users/tongling/Desktop/SFND_2D_Feature_Tracking/build/CMakeFiles/2D_feature_tracking.dir/src/matching2D_Student.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

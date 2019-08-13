@@ -82,7 +82,7 @@ int main(int argc, const char *argv[])
         // extract 2D keypoints from current image
         vector<cv::KeyPoint> keypoints; // create empty feature list for current image
         string detectorType = "SHITOMASI";
-
+        cv::Mat descriptors;
         //// STUDENT ASSIGNMENT
         //// TASK MP.2 -> add the following keypoint detectors in file matching2D.cpp and enable string-based selection based on detectorType
         //// -> HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
@@ -94,30 +94,32 @@ int main(int argc, const char *argv[])
         else if(detectorType.compare("HARRIS") == 0)
         {
             //...detKeypointsHarris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis=false);
-            detKeypointsHarris(keypoints, imgGray, false);
+            //detKeypointsHarris(keypoints, imgGray, false);
+            descKeypoints(keypoints, img, descriptors, detectorType);
         }
         else if(detectorType.compare("BRISK") == 0)
         {
             //...
             cv::Mat mask;
             cv::Mat descriptors;
-            detectAndCompute(img,mask,keypoints,descriptors,false );
-
+            //detectAndCompute(img,mask,keypoints,descriptors,false );
+            descKeypoints(keypoints, img, descriptors, detectorType);
         }
         else if(detectorType.compare("ORB") == 0)
         {
             //...
-            
+            descKeypoints(keypoints, img, descriptors, detectorType);
         }
         else if(detectorType.compare("AKAZE") == 0)
         {
             //...
-            
+            descKeypoints(keypoints, img, descriptors, detectorType);
         }
         else
         {
             //SIFT
-            
+            detectorType = "SIFT";
+            descKeypoints(keypoints, img, descriptors, detectorType);
         }
         
         //// EOF STUDENT ASSIGNMENT
@@ -159,7 +161,7 @@ int main(int argc, const char *argv[])
         //// TASK MP.4 -> add the following descriptors in file matching2D.cpp and enable string-based selection based on descriptorType
         //// -> BRIEF, ORB, FREAK, AKAZE, SIFT
 
-        cv::Mat descriptors;
+        //cv::Mat descriptors;
         string descriptorType = "BRISK"; // BRIEF, ORB, FREAK, AKAZE, SIFT
         descKeypoints((dataBuffer.end() - 1)->keypoints, (dataBuffer.end() - 1)->cameraImg, descriptors, descriptorType);
         //// EOF STUDENT ASSIGNMENT

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/osboxes/SFND_2D_Feature_Tracking/src/MidTermProject_Camera_Student.cpp
+/Users/tongling/Desktop/SFND_2D_Feature_Tracking/src/MidTermProject_Camera_Student.cpp
 iostream
 -
 fstream
@@ -34,17 +34,17 @@ opencv2/xfeatures2d.hpp
 opencv2/xfeatures2d/nonfree.hpp
 -
 dataStructures.h
-/home/osboxes/SFND_2D_Feature_Tracking/src/dataStructures.h
+/Users/tongling/Desktop/SFND_2D_Feature_Tracking/src/dataStructures.h
 matching2D.hpp
-/home/osboxes/SFND_2D_Feature_Tracking/src/matching2D.hpp
+/Users/tongling/Desktop/SFND_2D_Feature_Tracking/src/matching2D.hpp
 
-/home/osboxes/SFND_2D_Feature_Tracking/src/dataStructures.h
+/Users/tongling/Desktop/SFND_2D_Feature_Tracking/src/dataStructures.h
 vector
 -
 opencv2/core.hpp
 -
 
-/home/osboxes/SFND_2D_Feature_Tracking/src/matching2D.hpp
+/Users/tongling/Desktop/SFND_2D_Feature_Tracking/src/matching2D.hpp
 stdio.h
 -
 iostream
@@ -72,13 +72,7 @@ opencv2/xfeatures2d.hpp
 opencv2/xfeatures2d/nonfree.hpp
 -
 dataStructures.h
-/home/osboxes/SFND_2D_Feature_Tracking/src/dataStructures.h
-
-/home/osboxes/SFND_2D_Feature_Tracking/src/matching2D_Student.cpp
-numeric
--
-matching2D.hpp
-/home/osboxes/SFND_2D_Feature_Tracking/src/matching2D.hpp
+/Users/tongling/Desktop/SFND_2D_Feature_Tracking/src/dataStructures.h
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
@@ -1309,44 +1303,6 @@ opencv2/videostab/global_motion.hpp
 /usr/local/include/opencv4/opencv2/videostab/opencv2/videostab/global_motion.hpp
 opencv2/videostab/log.hpp
 /usr/local/include/opencv4/opencv2/videostab/opencv2/videostab/log.hpp
-
-/usr/local/include/opencv4/opencv2/viz.hpp
-opencv2/viz/types.hpp
--
-opencv2/viz/widgets.hpp
--
-opencv2/viz/viz3d.hpp
--
-opencv2/viz/vizcore.hpp
--
-
-/usr/local/include/opencv4/opencv2/viz/types.hpp
-string
--
-opencv2/core.hpp
--
-opencv2/core/affine.hpp
--
-
-/usr/local/include/opencv4/opencv2/viz/viz3d.hpp
-opencv2/core.hpp
--
-opencv2/viz/types.hpp
--
-opencv2/viz/widgets.hpp
--
-
-/usr/local/include/opencv4/opencv2/viz/vizcore.hpp
-opencv2/viz/types.hpp
--
-opencv2/viz/widgets.hpp
--
-opencv2/viz/viz3d.hpp
--
-
-/usr/local/include/opencv4/opencv2/viz/widgets.hpp
-opencv2/viz/types.hpp
--
 
 /usr/local/include/opencv4/opencv2/xfeatures2d.hpp
 opencv2/features2d.hpp

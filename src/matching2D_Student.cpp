@@ -10,6 +10,10 @@ using cv::FastFeatureDetector;
 using cv::xfeatures2d::SIFT;
 
 
+
+cv::Rect vehicleRect( int &min_x, int &min_y, int &width, int &height );
+
+
 // Find best matches for keypoints in two camera images based on several matching methods
 void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::KeyPoint> &kPtsRef, cv::Mat &descSource, cv::Mat &descRef,
                       std::vector<cv::DMatch> &matches, std::string descriptorType, std::string matcherType, std::string selectorType)
@@ -47,7 +51,7 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
     // select appropriate descriptor
     cv::Ptr<cv::DescriptorExtractor> extractor;
     
-
+    double t = (double)cv::getTickCount();
     if (descriptorType.compare("BRISK") == 0)
     {
         int threshold = 30;        // FAST/AGAST detection threshold score.
@@ -56,7 +60,7 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
 
         extractor = BRISK::create(threshold, octaves, patternScale);
         // perform feature description
-        double t = (double)cv::getTickCount();    
+        //double t = (double)cv::getTickCount();    
         extractor->compute(img, keypoints, descriptors);
         t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
         
@@ -69,7 +73,7 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
         bool nonMaxSuppression = true;
         extractor = FastFeatureDetector::create(threshold, nonMaxSuppression);
         // perform feature description
-        double t = (double)cv::getTickCount(); 
+        //double t = (double)cv::getTickCount(); 
         extractor->detect(img, keypoints);       
         t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
     }
@@ -79,7 +83,7 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
         cv::Mat mask;
         extractor = AKAZE::create();
         // perform feature description
-        double t = (double)cv::getTickCount();
+        //double t = (double)cv::getTickCount();
         extractor->detectAndCompute(img, mask, keypoints, descriptors);
         t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
     }
@@ -89,7 +93,7 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
         cv::Mat mask;
         extractor = ORB::create();
         // perform feature description
-        double t = (double)cv::getTickCount();
+        //double t = (double)cv::getTickCount();
         extractor->detectAndCompute(img,mask,keypoints,descriptors);
         t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
     }
@@ -97,10 +101,17 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
     {
         //SIFT
         cv::Mat mask;
-        extractor = SIFT::create();
+        int nfeatures=0;
+        int nOctaveLayers=3;
+        double contrastThreshold=0.04;
+        double edgeThreshold=10;
+        double sigma=1.6;
+
+
+        extractor = SIFT::create(nfeatures,nOctaveLayers,contrastThreshold,edgeThreshold,sigma);
         // perform feature description
-        double t = (double)cv::getTickCount();
-        extractor->detectAndCompute(img, mask, keypoints, descriptors);
+        //double t = (double)cv::getTickCount();
+        extractor->compute(img, keypoints, descriptors);
         t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
     }
 
@@ -112,7 +123,7 @@ void detKeypointsShiTomasi(vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool b
 {
     // compute detector parameters based on image size
     int blockSize = 4;       //  size of an average block for computing a derivative covariation matrix over each pixel neighborhood
-    double maxOverlap = 0.0; // max. permissible overlap between two features in %
+    double maxOverlap = 0.0; // max. permis sible overlap between two features in %
     double minDistance = (1.0 - maxOverlap) * blockSize;
     int maxCorners = img.rows * img.cols / max(1.0, minDistance); // max. num. of keypoints
 
