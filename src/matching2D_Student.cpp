@@ -11,7 +11,11 @@ using cv::xfeatures2d::SIFT;
 
 
 
-cv::Rect vehicleRect( int &min_x, int &min_y, int &width, int &height );
+cv::Rect vehicleRect( int &topLeft_x, int &topLeft_y, int &width, int &height )
+{
+    cv::Rect rec = cv::Rect(topLeft_x,topLeft_x,width,height);
+    return rec;
+}
 
 
 // Find best matches for keypoints in two camera images based on several matching methods
