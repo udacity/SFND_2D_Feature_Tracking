@@ -101,7 +101,7 @@ int main(int argc, const char *argv[])
         {
             //...
             cv::Mat mask;
-            cv::Mat descriptors;
+            //cv::Mat descriptors;
             //detectAndCompute(img,mask,keypoints,descriptors,false );
             descKeypoints(keypoints, img, descriptors, detectorType);
         }
@@ -129,22 +129,31 @@ int main(int argc, const char *argv[])
 
         // only keep keypoints on the preceding vehicle
         bool bFocusOnVehicle = true;
-        cv::Rect rec = vehicleRect(535, 180, 180, 150);
+        int topLeft_x, topLeft_y, botRight_x, botRight_y, width, height;
+        topLeft_x = 535;
+        topLeft_y = 180;
+        width = 180;
+        height = 150;
+        botRight_x = topLeft_x + width;
+        botRight_y = topLeft_y + height;
+        cv::Rect rec = vehicleRect( topLeft_x,  topLeft_y,  width,  height);
         if (bFocusOnVehicle)
         {
             // draw rect on image
-            cv::rectangle(img, rec, cv::Scalar(255,255,0),5,8,0);
+            cv::rectangle(img, rec, cv::Scalar(0,255,0),5,8,0);
             //void cvRectangle(CvArr* img, CvPoint pt1, CvPoint pt2, CvScalar color, int thickness=1, int line_type=8, int shift=0 )
-            for(auto it = keypoints.end(); it++)
-            {
-                if() //if in rectangle keep
+            
+            int count = 0;
+            for(auto it = keypoints.begin(); it != keypoints.end(); ++it)
+            {                
+                if( !( ( (*it).pt.x > topLeft_x)   &&  
+                        ((*it).pt.x < botRight_x)  &&  
+                        ((*it).pt.y > topLeft_y)  &&  
+                        ((*it).pt.y < botRight_y)  ) )//if not in rectangle, remove
                 {
-                    
+                    keypoints.erase(keypoints.begin()+count);// remove keypoint
                 }
-                else // remove keypoint
-                {
-                    keypoints.erase(keypoints.begin()+it);
-                }
+                count++;
             }
         }
 
@@ -174,9 +183,9 @@ int main(int argc, const char *argv[])
         //// TASK MP.4 -> add the following descriptors in file matching2D.cpp and enable string-based selection based on descriptorType
         //// -> BRIEF, ORB, FREAK, AKAZE, SIFT
 
-        //cv::Mat descriptors;
+        cv::Mat descriptors;
         string descriptorType = "BRISK"; // BRIEF, ORB, FREAK, AKAZE, SIFT
-        descKeypoints((dataBuffer.end() - 1)->keypoints, (dataBuffer.end() - 1)->cameraImg, descriptors, descriptorType);
+        descKeypoints( (dataBuffer.end() - 1)->keypoints, (dataBuffer.end() - 1)->cameraImg, descriptors, descriptorType);
         //// EOF STUDENT ASSIGNMENT
 
         // push descriptors for current frame to end of data buffer

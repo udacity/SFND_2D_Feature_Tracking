@@ -11,11 +11,7 @@ using cv::xfeatures2d::SIFT;
 
 
 
-cv::Rect vehicleRect( int &topLeft_x, int &topLeft_y, int &width, int &height )
-{
-    cv::Rect rec = cv::Rect(topLeft_x,topLeft_x,width,height);
-    return rec;
-}
+
 
 
 // Find best matches for keypoints in two camera images based on several matching methods
@@ -34,6 +30,7 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
     else if (matcherType.compare("MAT_FLANN") == 0)
     {
         // ...
+        
     }
 
     // perform matching task

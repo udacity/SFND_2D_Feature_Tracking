@@ -26,7 +26,11 @@ void descKeypoints(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &
 void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::KeyPoint> &kPtsRef, cv::Mat &descSource, cv::Mat &descRef,
                       std::vector<cv::DMatch> &matches, std::string descriptorType, std::string matcherType, std::string selectorType);
 
-
+cv::Rect vehicleRect( int &topLeft_x, int &topLeft_y, int &width, int &height )
+{
+    cv::Rect rec = cv::Rect(topLeft_x,topLeft_x,width,height);
+    return rec;
+}
 //void cv::ORB::detectAndCompute(cv::Mat &img, cv::Mat &mask, std::vector< cv::KeyPoint > &keypoints, cv::Mat &descriptors, bool useProvidedKeypoints = false);
 //void cv::BRISK::detectAndComput(cv::Mat &img, cv::Mat &mask, std::vector< cv::KeyPoint > &keypoints, cv::Mat &descriptors, bool useProvidedKeypoints = false);
 //void cv::
