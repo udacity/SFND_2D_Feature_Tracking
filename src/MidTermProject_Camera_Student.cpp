@@ -18,6 +18,14 @@
 
 using namespace std;
 
+
+cv::Rect vehicleRect( int &topLeft_x, int &topLeft_y, int &width, int &height )
+{
+    cv::Rect rec = cv::Rect(topLeft_x,topLeft_x,width,height);
+    return rec;
+}
+
+
 /* MAIN PROGRAM */
 int main(int argc, const char *argv[])
 {
