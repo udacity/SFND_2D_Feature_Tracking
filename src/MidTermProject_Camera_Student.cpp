@@ -227,6 +227,8 @@ int main(int argc, const char *argv[])
             cout << "#4 : MATCH KEYPOINT DESCRIPTORS done" << endl;
 
             // visualize matches between current and previous image
+            if(imgIndex == 0)  continue; // at least (buffersize =) 2 frames needed.
+            
             bVis = true;
             if (bVis)
             {
