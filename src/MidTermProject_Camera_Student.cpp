@@ -72,8 +72,8 @@ int main(int argc, const char *argv[])
         {
         	DataFrame frame;
         	frame.cameraImg = imgGray;
-        	//dataBuffer.push_back(frame);
-            dataBuffer[imgIndex]=frame;
+        	dataBuffer.push_back(frame);
+            //dataBuffer[imgIndex]=frame;
         }
         else
         {
