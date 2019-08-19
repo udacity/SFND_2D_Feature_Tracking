@@ -44,8 +44,8 @@ int main(int argc, const char *argv[])
     int imgFillWidth = 4;  // no. of digits which make up the file index (e.g. img-0001.png)
 
     // misc
-    unsigned dataBufferSize = 2;       // no. of images which are held in memory (ring buffer) at the same time
-    vector<DataFrame> dataBuffer(dataBufferSize); // list of data frames which are held in memory at the same time
+    //unsigned dataBufferSize = 2;       // no. of images which are held in memory (ring buffer) at the same time
+    vector<DataFrame> dataBuffer; // list of data frames which are held in memory at the same time
     bool bVis = false;            // visualize results
 
     /* MAIN LOOP OVER ALL IMAGES */
