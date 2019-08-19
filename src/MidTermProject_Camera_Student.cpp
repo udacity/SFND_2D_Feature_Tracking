@@ -137,7 +137,7 @@ int main(int argc, const char *argv[])
         //// TASK MP.3 -> only keep keypoints on the preceding vehicle
 
         // only keep keypoints on the preceding vehicle
-        bool bFocusOnVehicle = false;
+        bool bFocusOnVehicle = true;
         int topLeft_x, topLeft_y, botRight_x, botRight_y, width, height;
         topLeft_x = 535;
         topLeft_y = 180;
@@ -146,22 +146,23 @@ int main(int argc, const char *argv[])
         botRight_x = topLeft_x + width;
         botRight_y = topLeft_y + height;
         cv::Rect rec = vehicleRect( topLeft_x,  topLeft_y,  width,  height);
+
         if (bFocusOnVehicle)
         {
             // draw rect on image
             cv::rectangle(img, rec, cv::Scalar(0,255,0),5,8,0);
             //void cvRectangle(CvArr* img, CvPoint pt1, CvPoint pt2, CvScalar color, int thickness=1, int line_type=8, int shift=0 )            
-            int count = 0;
-            for(auto it = keypoints.begin(); it != keypoints.end(); ++it)
+            //int count = 0;
+            for(int i=0; i< keypoints.size(); i++)
             {                
-                if( !( ( (*it).pt.x > topLeft_x)   &&  
-                        ((*it).pt.x < botRight_x)  &&  
-                        ((*it).pt.y > topLeft_y)  &&  
-                        ((*it).pt.y < botRight_y)  ) )//if not in rectangle, remove
+                if( !( ( keypoints[i].pt.x > topLeft_x)   &&  
+                        (keypoints[i].pt.x < botRight_x)  &&  
+                        (keypoints[i].pt.y > topLeft_y)  &&  
+                        (keypoints[i].pt.y < botRight_y)  ) )//if not in rectangle, remove
                 {
-                    keypoints.erase(keypoints.begin()+count);// remove keypoint
+                    keypoints.erase(keypoints.begin()+i);// remove keypoint
                 }
-                count++;
+                //count++;
             }
         }
         cout << "flag 1"<< endl;
