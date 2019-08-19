@@ -44,7 +44,7 @@ int main(int argc, const char *argv[])
     int imgFillWidth = 4;  // no. of digits which make up the file index (e.g. img-0001.png)
 
     // misc
-    int dataBufferSize = 2;       // no. of images which are held in memory (ring buffer) at the same time
+    unsigned dataBufferSize = 2;       // no. of images which are held in memory (ring buffer) at the same time
     vector<DataFrame> dataBuffer(dataBufferSize); // list of data frames which are held in memory at the same time
     bool bVis = false;            // visualize results
 
@@ -53,7 +53,7 @@ int main(int argc, const char *argv[])
     for (size_t imgIndex = 0; imgIndex <= imgEndIndex - imgStartIndex; imgIndex++)
     {
         /* LOAD IMAGE INTO BUFFER */
-
+        cout<<"imageID: "<<imgIndex<<endl;
         // assemble filenames for current index
         ostringstream imgNumber;
         imgNumber << setfill('0') << setw(imgFillWidth) << imgStartIndex + imgIndex;
@@ -72,14 +72,15 @@ int main(int argc, const char *argv[])
         {
         	DataFrame frame;
         	frame.cameraImg = imgGray;
-        	dataBuffer.push_back(frame);
+        	//dataBuffer.push_back(frame);
+            dataBuffer[imgIndex]=frame;
         }
         else
         {
         	DataFrame frame;
         	frame.cameraImg = imgGray;
-        	dataBuffer.push_back(frame);
-        	dataBuffer.erase(dataBuffer.end()-1); //delet last element
+        	dataBuffer.erase(dataBuffer.begin()); //delet last or the first of element
+            dataBuffer.push_back(frame);
         }
 
         //// EOF STUDENT ASSIGNMENT
