@@ -164,7 +164,7 @@ int main(int argc, const char *argv[])
                 count++;
             }
         }
-
+        cout << "flag 1"<< endl;
         //// EOF STUDENT ASSIGNMENT
 
         // optional : limit number of keypoints (helpful for debugging and learning)
