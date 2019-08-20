@@ -21,7 +21,7 @@ using namespace std;
 
 cv::Rect vehicleRect( int &topLeft_x, int &topLeft_y, int &width, int &height )
 {
-    cv::Rect rec = cv::Rect(topLeft_x,topLeft_x,width,height);
+    cv::Rect rec = cv::Rect(topLeft_x,topLeft_y,width,height);
     return rec;
 }
 
@@ -53,7 +53,7 @@ int main(int argc, const char *argv[])
     for (size_t imgIndex = 0; imgIndex <= imgEndIndex - imgStartIndex; imgIndex++)
     {
         /* LOAD IMAGE INTO BUFFER */
-        cout<<"imageID: "<<imgIndex<<endl;
+        //cout<<"imageID: "<<imgIndex<<endl;
         // assemble filenames for current index
         ostringstream imgNumber;
         imgNumber << setfill('0') << setw(imgFillWidth) << imgStartIndex + imgIndex;
@@ -80,7 +80,7 @@ int main(int argc, const char *argv[])
         	DataFrame frame;
         	frame.cameraImg = imgGray;
         	dataBuffer.erase(dataBuffer.begin()); //delet last or the first of element
-            dataBuffer.push_back(frame);
+                dataBuffer.push_back(frame);
         }
 
         //// EOF STUDENT ASSIGNMENT
@@ -90,7 +90,7 @@ int main(int argc, const char *argv[])
 
         // extract 2D keypoints from current image
         vector<cv::KeyPoint> keypoints; // create empty feature list for current image
-        string detectorType = "ORB";
+        string detectorType = "SHITOMASI";
         cv::Mat descriptors;
         //// STUDENT ASSIGNMENT
         //// TASK MP.2 -> add the following keypoint detectors in file matching2D.cpp and enable string-based selection based on detectorType
@@ -100,34 +100,8 @@ int main(int argc, const char *argv[])
         {
             detKeypointsShiTomasi(keypoints, imgGray, false);
         }
-        else if(detectorType.compare("HARRIS") == 0)
-        {
-            //...detKeypointsHarris(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, bool bVis=false);
-            //detKeypointsHarris(keypoints, imgGray, false);
-            descKeypoints(keypoints, imgGray, descriptors, detectorType);
-        }
-        else if(detectorType.compare("BRISK") == 0)
-        {
-            //...
-            //cv::Mat mask;
-            //cv::Mat descriptors;
-            //detectAndCompute(img,mask,keypoints,descriptors,false );
-            descKeypoints(keypoints, imgGray, descriptors, detectorType);
-        }
-        else if(detectorType.compare("ORB") == 0)
-        {
-            //...
-            descKeypoints(keypoints, imgGray, descriptors, detectorType);
-        }
-        else if(detectorType.compare("AKAZE") == 0)
-        {
-            //...
-            descKeypoints(keypoints, imgGray, descriptors, detectorType);
-        }
         else
         {
-            //SIFT
-            detectorType = "SIFT";
             descKeypoints(keypoints, imgGray, descriptors, detectorType);
         }
         
@@ -137,39 +111,40 @@ int main(int argc, const char *argv[])
         //// TASK MP.3 -> only keep keypoints on the preceding vehicle
 
         // only keep keypoints on the preceding vehicle
-        bool bFocusOnVehicle = true;//true;
+        
+	cout<<"keypoints size:= "<<keypoints.size()<<endl;
         int topLeft_x, topLeft_y, botRight_x, botRight_y, width, height;
         topLeft_x = 535;
         topLeft_y = 180;
         width = 180;
         height = 150;
-        botRight_x = topLeft_x + width;
-        botRight_y = topLeft_y + height;
         cv::Rect rec = vehicleRect( topLeft_x,  topLeft_y,  width,  height);
-
-        if (bFocusOnVehicle)
-        {
+	botRight_x=rec.br().x;
+	botRight_y=rec.br().y;
+	bool bFocusOnVehicle = true;//true;
+        if(bFocusOnVehicle)
+	{
             // draw rect on image
-            //cv::rectangle(imgGray, rec, cv::Scalar(255,255,0),5,8,0);
-            //void cvRectangle(CvArr* img, CvPoint pt1, CvPoint pt2, CvScalar color, int thickness=1, int line_type=8, int shift=0 )            
-            //int count = 0;
 	    cout<<"keypoints size:= "<<keypoints.size()<<endl;
-            for(int i=0; i< keypoints.size(); i++)
+	    for(int i=0; i< keypoints.size(); i++)
             {                
                 if(  ( keypoints[i].pt.x > topLeft_x)   &&  
                         (keypoints[i].pt.x < botRight_x)  &&  
                         (keypoints[i].pt.y > topLeft_y)  &&  
                         (keypoints[i].pt.y < botRight_y)   )//if  in rectangle, 
                 {
-                	cout <<"point :" << keypoints[i].pt.x << " , "<<  keypoints[i].pt.y<<" in rec" <<endl;
+                	//cout <<"point :" << keypoints[i].pt.x << " , "<<  keypoints[i].pt.y<<" in rec" <<endl;
 			continue;
 		}
                 else
 		{
-		        //cout<<"remove the "<<i<<"th point"<<endl;
-			keypoints.erase(keypoints.begin()+i);// remove the keypoint
+		        //cout<<"remove the "<<i<<"th point"<<endl
+                	//<<"point :" << keypoints[i].pt.x << " , "<<  keypoints[i].pt.y<<" in rec" <<endl;
+			keypoints.erase(keypoints.begin()+i);
 		}
             }
+	    //cv::rectangle(()->cameraImg, rec, cv::Scalar(255,255,0),5,8,0);
+	    
 	    cout<<"keypoints size:= "<<keypoints.size()<<"====="<<endl;
         }
         //cout << "flag 1"<< endl;
@@ -200,7 +175,7 @@ int main(int argc, const char *argv[])
         //// -> BRIEF, ORB, FREAK, AKAZE, SIFT
 
         //cv::Mat descriptors;
-        string descriptorType = "ORB"; // BRIEF, ORB, FREAK, AKAZE, SIFT
+        string descriptorType = "BRIEF"; // BRIEF, ORB, FREAK, AKAZE, SIFT
         descKeypoints( (dataBuffer.end() - 1)->keypoints, (dataBuffer.end() - 1)->cameraImg, descriptors, descriptorType);
         //// EOF STUDENT ASSIGNMENT
 
@@ -217,7 +192,7 @@ int main(int argc, const char *argv[])
             vector<cv::DMatch> matches;
             string matcherType = "MAT_BF";        // MAT_BF, MAT_FLANN
             string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
-            string selectorType = "SEL_KNN";       // SEL_NN, SEL_KNN
+            string selectorType = "SEL_NN";       // SEL_NN, SEL_KNN
 
             //// STUDENT ASSIGNMENT
             //// TASK MP.5 -> add FLANN matching in file matching2D.cpp
@@ -240,7 +215,9 @@ int main(int argc, const char *argv[])
             if (bVis)
             {
                 cv::Mat matchImg = ((dataBuffer.end() - 1)->cameraImg).clone();
-                cv::drawMatches((dataBuffer.end() - 2)->cameraImg, (dataBuffer.end() - 2)->keypoints,
+                
+		
+		cv::drawMatches((dataBuffer.end() - 2)->cameraImg, (dataBuffer.end() - 2)->keypoints,
                                 (dataBuffer.end() - 1)->cameraImg, (dataBuffer.end() - 1)->keypoints,
                                 matches, matchImg,
                                 cv::Scalar::all(-1), cv::Scalar::all(-1),
@@ -248,10 +225,10 @@ int main(int argc, const char *argv[])
 
                 string windowName = "Matching keypoints between two camera images";
                 cv::namedWindow(windowName, 7);
+		
 		//cv::rectangle(matchImg, rec, cv::Scalar(255,255,0),5,8,0);
 		
 		cv::imshow(windowName, matchImg);
-		//cv::rectangle(matchImg, rec, cv::Scalar(255,255,0),5,8,0);
                 cout << "Press key to continue to next image" << endl;
                 cv::waitKey(0); // wait for key to be pressed
             }
