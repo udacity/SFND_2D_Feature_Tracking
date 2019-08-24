@@ -68,19 +68,12 @@ int main(int argc, const char *argv[])
         //// TASK MP.1 -> replace the following code with ring buffer of size dataBufferSize
 
         // push image into data frame buffer
-        if( imgIndex < 2 )
+        DataFrame frame;
+        frame.cameraImg = imgGray;
+        dataBuffer.push_back(frame);
+        if( dataBuffer.size() > dataBufferSize )
         {
-        	DataFrame frame;
-        	frame.cameraImg = imgGray;
-        	dataBuffer.push_back(frame);
-            //dataBuffer[imgIndex]=frame;
-        }
-        else
-        {
-        	DataFrame frame;
-        	frame.cameraImg = imgGray;
-        	dataBuffer.erase(dataBuffer.begin()); //delet last or the first of element
-                dataBuffer.push_back(frame);
+        	dataBuffer.erase(dataBuffer.begin()); //delet first of element
         }
 
         //// EOF STUDENT ASSIGNMENT
@@ -112,40 +105,32 @@ int main(int argc, const char *argv[])
 
         // only keep keypoints on the preceding vehicle
         
-	cout<<"keypoints size:= "<<keypoints.size()<<endl;
+	    cout<<"keypoints size:= "<<keypoints.size()<<endl;
         int topLeft_x, topLeft_y, botRight_x, botRight_y, width, height;
         topLeft_x = 535;
         topLeft_y = 180;
         width = 180;
         height = 150;
         cv::Rect rec = vehicleRect( topLeft_x,  topLeft_y,  width,  height);
-	botRight_x=rec.br().x;
-	botRight_y=rec.br().y;
-	bool bFocusOnVehicle = true;//true;
+	    botRight_x=rec.br().x;
+	    botRight_y=rec.br().y;
+	    bool bFocusOnVehicle = true;//true;
         if(bFocusOnVehicle)
-	{
+	    {
             // draw rect on image
-	    cout<<"keypoints size:= "<<keypoints.size()<<endl;
-	    for(int i=0; i< keypoints.size(); i++)
+	        //cout<<"keypoints size:= "<<keypoints.size()<<endl;
+            vector<cv::KeyPoint> filtered; 
+	        for(int i=0; i< keypoints.size(); i++)
             {                
-                if(  ( keypoints[i].pt.x > topLeft_x)   &&  
-                        (keypoints[i].pt.x < botRight_x)  &&  
-                        (keypoints[i].pt.y > topLeft_y)  &&  
-                        (keypoints[i].pt.y < botRight_y)   )//if  in rectangle, 
-                {
-                	//cout <<"point :" << keypoints[i].pt.x << " , "<<  keypoints[i].pt.y<<" in rec" <<endl;
-			continue;
-		}
-                else
-		{
-		        //cout<<"remove the "<<i<<"th point"<<endl
-                	//<<"point :" << keypoints[i].pt.x << " , "<<  keypoints[i].pt.y<<" in rec" <<endl;
-			keypoints.erase(keypoints.begin()+i);
-		}
+                if(  ( keypoints[i].pt.x > topLeft_x)   &&  (keypoints[i].pt.x < botRight_x)){
+                    if ( (keypoints[i].pt.y > topLeft_y)  &&  (keypoints[i].pt.y < botRight_y) ){
+                        filtered.push_back(keypoints[i]);
+                    }
+                }
             }
-	    //cv::rectangle(()->cameraImg, rec, cv::Scalar(255,255,0),5,8,0);
-	    
-	    cout<<"keypoints size:= "<<keypoints.size()<<"====="<<endl;
+            keypoints = filtered;
+	        //cv::rectangle(()->cameraImg, rec, cv::Scalar(255,255,0),5,8,0);    
+	        //cout<<"keypoints size:= "<<keypoints.size()<<"====="<<endl;
         }
         //cout << "flag 1"<< endl;
         //// EOF STUDENT ASSIGNMENT
@@ -217,7 +202,7 @@ int main(int argc, const char *argv[])
                 cv::Mat matchImg = ((dataBuffer.end() - 1)->cameraImg).clone();
                 
 		
-		cv::drawMatches((dataBuffer.end() - 2)->cameraImg, (dataBuffer.end() - 2)->keypoints,
+		        cv::drawMatches((dataBuffer.end() - 2)->cameraImg, (dataBuffer.end() - 2)->keypoints,
                                 (dataBuffer.end() - 1)->cameraImg, (dataBuffer.end() - 1)->keypoints,
                                 matches, matchImg,
                                 cv::Scalar::all(-1), cv::Scalar::all(-1),
@@ -226,9 +211,9 @@ int main(int argc, const char *argv[])
                 string windowName = "Matching keypoints between two camera images";
                 cv::namedWindow(windowName, 7);
 		
-		//cv::rectangle(matchImg, rec, cv::Scalar(255,255,0),5,8,0);
+		        //cv::rectangle(matchImg, rec, cv::Scalar(255,255,0),5,8,0);
 		
-		cv::imshow(windowName, matchImg);
+		        cv::imshow(windowName, matchImg);
                 cout << "Press key to continue to next image" << endl;
                 cv::waitKey(0); // wait for key to be pressed
             }

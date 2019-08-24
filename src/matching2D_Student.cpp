@@ -98,6 +98,10 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
         extractor->detectAndCompute(img,mask,keypoints,descriptors);
         t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
     }
+    else if(descriptorType.compare("FREAK") == 0)
+    {
+        extractor = cv::xfeatures2d::FREAK::create(true,true,22,4)
+    }
     else if(descriptorType.compare("SIFT") == 0)
     {
         //SIFT
