@@ -99,10 +99,8 @@ int main(int argc, const char *argv[])
         }
         
         //// EOF STUDENT ASSIGNMENT
-
         //// STUDENT ASSIGNMENT
         //// TASK MP.3 -> only keep keypoints on the preceding vehicle
-
         // only keep keypoints on the preceding vehicle
         
 	    cout<<"keypoints size:= "<<keypoints.size()<<endl;
@@ -129,8 +127,8 @@ int main(int argc, const char *argv[])
                 }
             }
             keypoints = filtered;
-	        //cv::rectangle(()->cameraImg, rec, cv::Scalar(255,255,0),5,8,0);    
-	        //cout<<"keypoints size:= "<<keypoints.size()<<"====="<<endl;
+   
+	        cout<<"Size of keypoints in the bounding box = "<<keypoints.size()<<endl;
         }
         //cout << "flag 1"<< endl;
         //// EOF STUDENT ASSIGNMENT

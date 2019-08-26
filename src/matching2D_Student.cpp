@@ -9,9 +9,8 @@ using cv::AKAZE;
 using cv::FastFeatureDetector;
 using cv::xfeatures2d::SIFT;
 
-
-
-
+const double kDistanceCoef = 4.0;
+const int kMaxMatchingSize = 50;
 
 
 // Find best matches for keypoints in two camera images based on several matching methods
@@ -21,17 +20,17 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
     // configure matcher
     bool crossCheck = false;
     cv::Ptr<cv::DescriptorMatcher> matcher;
-
+    
     if (matcherType.compare("MAT_BF") == 0)
     {
-        int normType = cv::NORM_HAMMING;
+        int normType = cv::NORM_HAMMING; //NORM_L2 is also aviable.....
         matcher = cv::BFMatcher::create(normType, crossCheck);
+        //matcher.match(descSource, descRef, matches, Mat() );
     }
     else if (matcherType.compare("MAT_FLANN") == 0)
     {
         // ...
-        matcher = cv::DescriptorMatcher::create(cv::DescriptorMatcher::FLANNBASED);
-        
+        matcher = cv::DescriptorMatcher::create(cv::DescriptorMatcher::FLANNBASED);        
     }
 
     // perform matching task
@@ -43,6 +42,14 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
     { // k nearest neighbors (k=2)
         std::vector< std::vector<cv::DMatch> > knn_matches;
         matcher->knnMatch( descSource, descRef, knn_matches, 2 );         
+    }
+
+    std::sort(matches.begin(), matches.end());
+    while (matches.front().distance * kDistanceCoef < matches.back().distance) {
+        matches.pop_back();
+    }
+    while (matches.size() > kMaxMatchingSize) {
+        matches.pop_back();
     }
 }
 
@@ -101,6 +108,7 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
     else if(descriptorType.compare("FREAK") == 0)
     {
         extractor = cv::xfeatures2d::FREAK::create(true,true,22,4);
+        t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
     }
     else if(descriptorType.compare("SIFT") == 0)
     {
@@ -111,8 +119,6 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
         double contrastThreshold=0.04;
         double edgeThreshold=10;
         double sigma=1.6;
-
-
         extractor = SIFT::create(nfeatures,nOctaveLayers,contrastThreshold,edgeThreshold,sigma);
         // perform feature description
         //double t = (double)cv::getTickCount();
