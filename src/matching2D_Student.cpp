@@ -9,8 +9,8 @@ using cv::AKAZE;
 using cv::FastFeatureDetector;
 using cv::xfeatures2d::SIFT;
 
-const double kDistanceCoef = 4.0;
-const int kMaxMatchingSize = 50;
+//const double kDistanceCoef = 4.0;
+//const int kMaxMatchingSize = 50;
 
 
 // Find best matches for keypoints in two camera images based on several matching methods
@@ -24,6 +24,7 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
     if (matcherType.compare("MAT_BF") == 0)
     {
         int normType = cv::NORM_HAMMING; //NORM_L2 is also aviable.....
+	//matcher.distance = 0.8;
         matcher = cv::BFMatcher::create(normType, crossCheck);
         //matcher.match(descSource, descRef, matches, Mat() );
     }
@@ -36,20 +37,27 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
     // perform matching task
     if (selectorType.compare("SEL_NN") == 0)
     { // nearest neighbor (best match)
-        matcher->match(descSource, descRef, matches); // Finds the best match for each descriptor in desc1
+	
+	matcher->match(descSource, descRef, matches); // Finds the best match for each descriptor in desc1
+    	
+	std::sort(matches.begin(), matches.end());
+    	/*while (matches.front().distance * kDistanceCoef < matches.back().distance) {
+        	matches.pop_back();
+    	}
+    	while (matches.size() > kMaxMatchingSize) {
+        	matches.pop_back();
+    	}*/
     }
     else if (selectorType.compare("SEL_KNN") == 0)
-    { // k nearest neighbors (k=2)
+    {   // k nearest neighbors (k=2)
         std::vector< std::vector<cv::DMatch> > knn_matches;
-        matcher->knnMatch( descSource, descRef, knn_matches, 2 );         
-    }
+        matcher->knnMatch( descSource, descRef, knn_matches, 2 );
+	for (int i = 0; i<knn_matches.size(); i++)
+	{
+		for (int j = 0; j<knn_matches[i].size(); j++)		
+			knn_matches[i][j].distance = 0.8; //is it correct?
+	}         
 
-    std::sort(matches.begin(), matches.end());
-    while (matches.front().distance * kDistanceCoef < matches.back().distance) {
-        matches.pop_back();
-    }
-    while (matches.size() > kMaxMatchingSize) {
-        matches.pop_back();
     }
 }
 
@@ -57,12 +65,13 @@ void matchDescriptors(std::vector<cv::KeyPoint> &kPtsSource, std::vector<cv::Key
 void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descriptors, string descriptorType)
 {
     // select appropriate descriptor
+    std::cout<< "descriptor type: "<< descriptorType <<std::endl;
     cv::Ptr<cv::DescriptorExtractor> extractor;
     
     double t = (double)cv::getTickCount();
     if (descriptorType.compare("BRISK") == 0)
-    {
-        int threshold = 30;        // FAST/AGAST detection threshold score.
+    {	        
+	int threshold = 30;        // FAST/AGAST detection threshold score.
         int octaves = 3;           // detection octaves (use 0 to do single scale)
         float patternScale = 1.0f; // apply this scale to the pattern used for sampling the neighbourhood of a keypoint.
 

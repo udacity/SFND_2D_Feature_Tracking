@@ -1,0 +1,79 @@
+Top3
+
+FAST + FREAK = 3.13 ms
+ORB + ORB = 19.6 ms
+ShiTomashi + FREAK = 32.3  ms
+
+
+
+===========================================================================
+ShiTomashi + BRISK
+37.4 + 219.9
+ShiTomashi + ORB   (2)
+29.31 + 22.7498
+ShiTomashi + FREAK (1)
+31.8 + 0.5
+ShiTomashi + AKAZE
+36.3+109.6
+ShiTomashi + SIFT  (3)
+30.3+51.9
+
+
+Fast + BRISK
+2.3  + 238.0
+Fast + ORB         (2)
+0.6 + 10.2
+Fast + FREAK       (1)
+2.8 + 0.5
+Fast + AKAZE
+3.1 + 118.4
+Fast + SIFT        (3)
+4.6 + 51.5
+
+
+BRISK + BRISK
+197.7 + 188.5
+BRISK + ORB        (2)
+191.0 + 26.1
+BRISK + FREAK      (1)
+202.3 + 3.4
+BRISK + AKAZE
+207.0 + 124.3
+BRISK + SIFT       (3) 
+201.5 + 38.3
+
+
+ORB + BRISK
+15.2 + 209.1
+ORB + ORB	   (1)
+11.63 + 8.08
+ORB + FREAK        (2)
+10.8 + 13.7
+ORB + AKAZE
+15.0 + 105.5
+ORB + SIFT	   (3)
+25.4 + 84.3        
+
+
+AKAZE + BRISK
+101.1 + 204.5
+AKAZE + ORB        (2)
+111.419 + 15.4
+AKAZE + FREAK      (1)
+99.4 + 3.0
+AKAZE + AKAZE
+109.8 + 86.4
+AKAZE + SIFT       (3)
+102.5 + 36.3
+
+
+SIFT + BRISK
+27.3 + 198.9
+SIFT + ORB         (2)
+39.36 + 27.2
+SIFT + FREAK       (1)
+33.4 + 1.12
+SIFT + AKAZE
+28.4 + 106.9
+SIFT + SIFT        (3)
+28.1 + 25.8

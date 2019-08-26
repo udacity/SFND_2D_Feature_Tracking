@@ -87,7 +87,7 @@ int main(int argc, const char *argv[])
         cv::Mat descriptors;
         //// STUDENT ASSIGNMENT
         //// TASK MP.2 -> add the following keypoint detectors in file matching2D.cpp and enable string-based selection based on detectorType
-        //// -> HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
+        //// -> FAST, BRISK, ORB, AKAZE, SIFT
 
         if (detectorType.compare("SHITOMASI") == 0)
         {
@@ -103,7 +103,7 @@ int main(int argc, const char *argv[])
         //// TASK MP.3 -> only keep keypoints on the preceding vehicle
         // only keep keypoints on the preceding vehicle
         
-	    cout<<"keypoints size:= "<<keypoints.size()<<endl;
+	//cout<<"keypoints size:= "<<keypoints.size()<<endl;
         int topLeft_x, topLeft_y, botRight_x, botRight_y, width, height;
         topLeft_x = 535;
         topLeft_y = 180;
@@ -114,21 +114,20 @@ int main(int argc, const char *argv[])
 	    botRight_y=rec.br().y;
 	    bool bFocusOnVehicle = true;//true;
         if(bFocusOnVehicle)
-	    {
+	{
             // draw rect on image
 	        //cout<<"keypoints size:= "<<keypoints.size()<<endl;
             vector<cv::KeyPoint> filtered; 
-	        for(int i=0; i< keypoints.size(); i++)
+	    for(int i=0; i< keypoints.size(); i++)
             {                
-                if(  ( keypoints[i].pt.x > topLeft_x)   &&  (keypoints[i].pt.x < botRight_x)){
+                if(  ( keypoints[i].pt.x > topLeft_x)   &&  (keypoints[i].pt.x < botRight_x) ){
                     if ( (keypoints[i].pt.y > topLeft_y)  &&  (keypoints[i].pt.y < botRight_y) ){
                         filtered.push_back(keypoints[i]);
                     }
                 }
             }
-            keypoints = filtered;
-   
-	        cout<<"Size of keypoints in the bounding box = "<<keypoints.size()<<endl;
+            keypoints = filtered;   
+	    cout<<"Size of keypoints in the bounding box = "<<keypoints.size()<<endl;
         }
         //cout << "flag 1"<< endl;
         //// EOF STUDENT ASSIGNMENT
@@ -158,7 +157,7 @@ int main(int argc, const char *argv[])
         //// -> BRIEF, ORB, FREAK, AKAZE, SIFT
 
         //cv::Mat descriptors;
-        string descriptorType = "BRIEF"; // BRIEF, ORB, FREAK, AKAZE, SIFT
+        string descriptorType = "SIFT"; //  BRISK,ORB, FREAK, AKAZE, SIFT
         descKeypoints( (dataBuffer.end() - 1)->keypoints, (dataBuffer.end() - 1)->cameraImg, descriptors, descriptorType);
         //// EOF STUDENT ASSIGNMENT
 
@@ -175,7 +174,7 @@ int main(int argc, const char *argv[])
             vector<cv::DMatch> matches;
             string matcherType = "MAT_BF";        // MAT_BF, MAT_FLANN
             string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
-            string selectorType = "SEL_NN";       // SEL_NN, SEL_KNN
+            string selectorType = "SEL_KNN";       // SEL_NN, SEL_KNN
 
             //// STUDENT ASSIGNMENT
             //// TASK MP.5 -> add FLANN matching in file matching2D.cpp
@@ -200,7 +199,7 @@ int main(int argc, const char *argv[])
                 cv::Mat matchImg = ((dataBuffer.end() - 1)->cameraImg).clone();
                 
 		
-		        cv::drawMatches((dataBuffer.end() - 2)->cameraImg, (dataBuffer.end() - 2)->keypoints,
+		cv::drawMatches((dataBuffer.end() - 2)->cameraImg, (dataBuffer.end() - 2)->keypoints,
                                 (dataBuffer.end() - 1)->cameraImg, (dataBuffer.end() - 1)->keypoints,
                                 matches, matchImg,
                                 cv::Scalar::all(-1), cv::Scalar::all(-1),
@@ -209,10 +208,10 @@ int main(int argc, const char *argv[])
                 string windowName = "Matching keypoints between two camera images";
                 cv::namedWindow(windowName, 7);
 		
-		        //cv::rectangle(matchImg, rec, cv::Scalar(255,255,0),5,8,0);
+		//cv::rectangle(matchImg, rec, cv::Scalar(255,255,0),5,8,0);
 		
-		        cv::imshow(windowName, matchImg);
-                cout << "Press key to continue to next image" << endl;
+		cv::imshow(windowName, matchImg);
+                cout << "Press key to continue to next image" << endl << endl <<endl;
                 cv::waitKey(0); // wait for key to be pressed
             }
             bVis = false;
