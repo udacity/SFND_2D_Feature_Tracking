@@ -1,4 +1,4 @@
-Top3
+Top3 detector / descriptor combinations :
 
 FAST + FREAK = 3.13 ms
 ORB + ORB = 19.6 ms
