@@ -59,8 +59,8 @@ if( dataBuffer.size() > dataBufferSize )
 
 
 ### Keypoints
-
-keypoints within a bounding box is requrested others are removed. 
+Keypoints detectors like FAST, BRISK, ORB, AKAZE, and SIFT are created.
+Detected keypoints within a bounding box ( in the center area of the images ) is requrested others are removed. 
 
 ```
 bool bFocusOnVehicle = true;//true;
@@ -81,9 +81,12 @@ if(bFocusOnVehicle)
 }
 ```
 
-with orb keypoints detection I did not know why the keypoints are not filtered, the 
+with ORB keypoints detection and AKAZE descriptor type, I did not know why the keypoints are not filtered, all detected keypoints are still there.
 
 ### Descriptors
-
+MP4. to MP6. were finished completely.
 
 ### Performance
+MP7. All keypoints has been counted accordingly.
+MP8. Descriptors and matching keypoints are extracted.
+MP9. All combinations extractor and matcher are tested. Running time also counted. The top 3 combinations are recored on spreadsheet.txt file.

@@ -1,0 +1,3513 @@
+
+------------------
+SHITOMASI + BRISK
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1370 keypoints in 37.4532 ms
+Size of keypoints in the bounding box = 122
+#2 : DETECT KEYPOINTS done
+size = 122
+descriptor type: BRISK
+BRISK descriptor extraction in 219.927 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1301 keypoints in 9.56439 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: BRISK
+BRISK descriptor extraction in 199.263 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 01:08:11.839: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1361 keypoints in 19.3705 ms
+Size of keypoints in the bounding box = 122
+#2 : DETECT KEYPOINTS done
+size = 122
+descriptor type: BRISK
+BRISK descriptor extraction in 234.316 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1358 keypoints in 28.4242 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: BRISK
+BRISK descriptor extraction in 236.252 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1333 keypoints in 7.67376 ms
+Size of keypoints in the bounding box = 115
+#2 : DETECT KEYPOINTS done
+size = 115
+descriptor type: BRISK
+BRISK descriptor extraction in 210.739 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1284 keypoints in 8.67385 ms
+Size of keypoints in the bounding box = 112
+#2 : DETECT KEYPOINTS done
+size = 112
+descriptor type: BRISK
+BRISK descriptor extraction in 197.919 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1322 keypoints in 9.27913 ms
+Size of keypoints in the bounding box = 112
+#2 : DETECT KEYPOINTS done
+size = 112
+descriptor type: BRISK
+BRISK descriptor extraction in 197.1 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1366 keypoints in 8.57226 ms
+Size of keypoints in the bounding box = 120
+#2 : DETECT KEYPOINTS done
+size = 120
+descriptor type: BRISK
+BRISK descriptor extraction in 197.599 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1389 keypoints in 8.00922 ms
+Size of keypoints in the bounding box = 111
+#2 : DETECT KEYPOINTS done
+size = 111
+descriptor type: BRISK
+BRISK descriptor extraction in 197.191 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1339 keypoints in 26.2328 ms
+Size of keypoints in the bounding box = 108
+#2 : DETECT KEYPOINTS done
+size = 108
+descriptor type: BRISK
+BRISK descriptor extraction in 199.474 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+
+
+------------------
+SHITOMASI + ORB
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1370 keypoints in 29.31 ms
+Size of keypoints in the bounding box = 122
+#2 : DETECT KEYPOINTS done
+size = 122
+descriptor type: ORB
+ORB descriptor extraction in 22.7498 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1301 keypoints in 9.73667 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: ORB
+ORB descriptor extraction in 7.16991 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 01:21:41.444: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1361 keypoints in 8.72711 ms
+Size of keypoints in the bounding box = 122
+#2 : DETECT KEYPOINTS done
+size = 122
+descriptor type: ORB
+ORB descriptor extraction in 8.99432 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1358 keypoints in 26.3781 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: ORB
+ORB descriptor extraction in 15.847 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1333 keypoints in 25.6054 ms
+Size of keypoints in the bounding box = 115
+#2 : DETECT KEYPOINTS done
+size = 115
+descriptor type: ORB
+ORB descriptor extraction in 14.0365 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1284 keypoints in 28.1063 ms
+Size of keypoints in the bounding box = 112
+#2 : DETECT KEYPOINTS done
+size = 112
+descriptor type: ORB
+ORB descriptor extraction in 8.76192 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1322 keypoints in 26.8912 ms
+Size of keypoints in the bounding box = 112
+#2 : DETECT KEYPOINTS done
+size = 112
+descriptor type: ORB
+ORB descriptor extraction in 17.422 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1366 keypoints in 25.9795 ms
+Size of keypoints in the bounding box = 120
+#2 : DETECT KEYPOINTS done
+size = 120
+descriptor type: ORB
+ORB descriptor extraction in 10.2161 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1389 keypoints in 27.2792 ms
+Size of keypoints in the bounding box = 111
+#2 : DETECT KEYPOINTS done
+size = 111
+descriptor type: ORB
+ORB descriptor extraction in 13.629 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1339 keypoints in 23.9297 ms
+Size of keypoints in the bounding box = 108
+#2 : DETECT KEYPOINTS done
+size = 108
+descriptor type: ORB
+ORB descriptor extraction in 13.7136 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+
+------------------
+SHITOMASI + FREAK
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1370 keypoints in 31.8084 ms
+Size of keypoints in the bounding box = 122
+#2 : DETECT KEYPOINTS done
+size = 122
+descriptor type: FREAK
+FREAK descriptor extraction in 0.551708 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1301 keypoints in 12.9617 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003947 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 01:22:55.657: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1361 keypoints in 9.76312 ms
+Size of keypoints in the bounding box = 122
+#2 : DETECT KEYPOINTS done
+size = 122
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003021 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1358 keypoints in 27.4514 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: FREAK
+FREAK descriptor extraction in 0.004325 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1333 keypoints in 25.3651 ms
+Size of keypoints in the bounding box = 115
+#2 : DETECT KEYPOINTS done
+size = 115
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003878 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1284 keypoints in 8.78811 ms
+Size of keypoints in the bounding box = 112
+#2 : DETECT KEYPOINTS done
+size = 112
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003445 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1322 keypoints in 27.5874 ms
+Size of keypoints in the bounding box = 112
+#2 : DETECT KEYPOINTS done
+size = 112
+descriptor type: FREAK
+FREAK descriptor extraction in 0.004704 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1366 keypoints in 30.7738 ms
+Size of keypoints in the bounding box = 120
+#2 : DETECT KEYPOINTS done
+size = 120
+descriptor type: FREAK
+FREAK descriptor extraction in 0.004476 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1389 keypoints in 28.4461 ms
+Size of keypoints in the bounding box = 111
+#2 : DETECT KEYPOINTS done
+size = 111
+descriptor type: FREAK
+FREAK descriptor extraction in 0.004661 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1339 keypoints in 30.9758 ms
+Size of keypoints in the bounding box = 108
+#2 : DETECT KEYPOINTS done
+size = 108
+descriptor type: FREAK
+FREAK descriptor extraction in 0.004958 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+
+------------------
+SHITOMASI + AKAZE
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1370 keypoints in 36.3916 ms
+Size of keypoints in the bounding box = 122
+#2 : DETECT KEYPOINTS done
+size = 122
+descriptor type: AKAZE
+AKAZE descriptor extraction in 109.694 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1301 keypoints in 8.28756 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: AKAZE
+AKAZE descriptor extraction in 90.5361 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 01:24:28.563: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1361 keypoints in 8.45178 ms
+Size of keypoints in the bounding box = 122
+#2 : DETECT KEYPOINTS done
+size = 122
+descriptor type: AKAZE
+AKAZE descriptor extraction in 123.255 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1358 keypoints in 9.18461 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: AKAZE
+AKAZE descriptor extraction in 94.6143 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1333 keypoints in 25.3268 ms
+Size of keypoints in the bounding box = 115
+#2 : DETECT KEYPOINTS done
+size = 115
+descriptor type: AKAZE
+AKAZE descriptor extraction in 94.2412 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1284 keypoints in 27.4319 ms
+Size of keypoints in the bounding box = 112
+#2 : DETECT KEYPOINTS done
+size = 112
+descriptor type: AKAZE
+AKAZE descriptor extraction in 95.6443 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1322 keypoints in 27.827 ms
+Size of keypoints in the bounding box = 112
+#2 : DETECT KEYPOINTS done
+size = 112
+descriptor type: AKAZE
+AKAZE descriptor extraction in 101.032 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1366 keypoints in 26.6046 ms
+Size of keypoints in the bounding box = 120
+#2 : DETECT KEYPOINTS done
+size = 120
+descriptor type: AKAZE
+AKAZE descriptor extraction in 116.514 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1389 keypoints in 24.5713 ms
+Size of keypoints in the bounding box = 111
+#2 : DETECT KEYPOINTS done
+size = 111
+descriptor type: AKAZE
+AKAZE descriptor extraction in 92.4269 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1339 keypoints in 7.89661 ms
+Size of keypoints in the bounding box = 108
+#2 : DETECT KEYPOINTS done
+size = 108
+descriptor type: AKAZE
+AKAZE descriptor extraction in 87.6117 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+------------------
+SHITOMASI + SIFT
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1370 keypoints in 30.3171 ms
+Size of keypoints in the bounding box = 122
+#2 : DETECT KEYPOINTS done
+size = 122
+descriptor type: SIFT
+SIFT descriptor extraction in 51.9892 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+Shi-Tomasi detection with n=1301 keypoints in 13.721 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: SIFT
+SIFT descriptor extraction in 26.0701 ms
+#3 : EXTRACT DESCRIPTORS done
+terminate called after throwing an instance of 'cv::Exception'
+  what():  OpenCV(4.1.1) /home/osboxes/app/opencv/modules/core/src/batch_distance.cpp:282: error: (-215:Assertion failed) (type == CV_8U && dtype == CV_32S) || dtype == CV_32F in function 'batchDistance'
+
+[1]    20860 abort (core dumped)  ./2D_feature_tracking
+
+#
+#
+#
+#
+#
+#
+#
+#
+------------------
+FAST + BRISK
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.39797 ms
+Size of keypoints in the bounding box = 141
+#2 : DETECT KEYPOINTS done
+size = 141
+descriptor type: BRISK
+BRISK descriptor extraction in 238.037 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 0.55604 ms
+Size of keypoints in the bounding box = 143
+#2 : DETECT KEYPOINTS done
+size = 143
+descriptor type: BRISK
+BRISK descriptor extraction in 213.914 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 01:52:50.854: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+ #1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.32413 ms
+Size of keypoints in the bounding box = 140
+#2 : DETECT KEYPOINTS done
+size = 140
+descriptor type: BRISK
+BRISK descriptor extraction in 234.015 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 0.533467 ms
+Size of keypoints in the bounding box = 149
+#2 : DETECT KEYPOINTS done
+size = 149
+descriptor type: BRISK
+BRISK descriptor extraction in 194.453 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.29233 ms
+Size of keypoints in the bounding box = 139
+#2 : DETECT KEYPOINTS done
+size = 139
+descriptor type: BRISK
+BRISK descriptor extraction in 233.449 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 0.943707 ms
+Size of keypoints in the bounding box = 139
+#2 : DETECT KEYPOINTS done
+size = 139
+descriptor type: BRISK
+BRISK descriptor extraction in 209.007 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 1.02456 ms
+Size of keypoints in the bounding box = 153
+#2 : DETECT KEYPOINTS done
+size = 153
+descriptor type: BRISK
+BRISK descriptor extraction in 204.454 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.28597 ms
+Size of keypoints in the bounding box = 142
+#2 : DETECT KEYPOINTS done
+size = 142
+descriptor type: BRISK
+BRISK descriptor extraction in 214.41 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.45276 ms
+Size of keypoints in the bounding box = 131
+#2 : DETECT KEYPOINTS done
+size = 131
+descriptor type: BRISK
+BRISK descriptor extraction in 211.658 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 0.913969 ms
+Size of keypoints in the bounding box = 135
+#2 : DETECT KEYPOINTS done
+size = 135
+descriptor type: BRISK
+BRISK descriptor extraction in 208.153 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+------------------
+FAST + ORB
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 0.601012 ms
+Size of keypoints in the bounding box = 141
+#2 : DETECT KEYPOINTS done
+size = 141
+descriptor type: ORB
+ORB descriptor extraction in 10.2599 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 0.583398 ms
+Size of keypoints in the bounding box = 143
+#2 : DETECT KEYPOINTS done
+size = 143
+descriptor type: ORB
+ORB descriptor extraction in 7.50515 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 01:55:32.192: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.36792 ms
+Size of keypoints in the bounding box = 140
+#2 : DETECT KEYPOINTS done
+size = 140
+descriptor type: ORB
+ORB descriptor extraction in 21.1999 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.33548 ms
+Size of keypoints in the bounding box = 149
+#2 : DETECT KEYPOINTS done
+size = 149
+descriptor type: ORB
+ORB descriptor extraction in 24.6714 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.45682 ms
+Size of keypoints in the bounding box = 139
+#2 : DETECT KEYPOINTS done
+size = 139
+descriptor type: ORB
+ORB descriptor extraction in 18.2058 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 1.20856 ms
+Size of keypoints in the bounding box = 139
+#2 : DETECT KEYPOINTS done
+size = 139
+descriptor type: ORB
+ORB descriptor extraction in 18.9855 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 1.21916 ms
+Size of keypoints in the bounding box = 153
+#2 : DETECT KEYPOINTS done
+size = 153
+descriptor type: ORB
+ORB descriptor extraction in 20.028 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.27522 ms
+Size of keypoints in the bounding box = 142
+#2 : DETECT KEYPOINTS done
+size = 142
+descriptor type: ORB
+ORB descriptor extraction in 22.5224 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.43968 ms
+Size of keypoints in the bounding box = 131
+#2 : DETECT KEYPOINTS done
+size = 131
+descriptor type: ORB
+ORB descriptor extraction in 23.0022 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.33213 ms
+Size of keypoints in the bounding box = 135
+#2 : DETECT KEYPOINTS done
+size = 135
+descriptor type: ORB
+ORB descriptor extraction in 25.0492 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+
+------------------
+FAST + FREAK
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.89863 ms
+Size of keypoints in the bounding box = 141
+#2 : DETECT KEYPOINTS done
+size = 141
+descriptor type: FREAK
+FREAK descriptor extraction in 0.513425 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 0.551991 ms
+Size of keypoints in the bounding box = 143
+#2 : DETECT KEYPOINTS done
+size = 143
+descriptor type: FREAK
+FREAK descriptor extraction in 0.001509 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 01:56:24.876: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.41759 ms
+Size of keypoints in the bounding box = 140
+#2 : DETECT KEYPOINTS done
+size = 140
+descriptor type: FREAK
+FREAK descriptor extraction in 0.006472 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 3.66905 ms
+Size of keypoints in the bounding box = 149
+#2 : DETECT KEYPOINTS done
+size = 149
+descriptor type: FREAK
+FREAK descriptor extraction in 0.008173 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.31775 ms
+Size of keypoints in the bounding box = 139
+#2 : DETECT KEYPOINTS done
+size = 139
+descriptor type: FREAK
+FREAK descriptor extraction in 0.006199 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.43264 ms
+Size of keypoints in the bounding box = 139
+#2 : DETECT KEYPOINTS done
+size = 139
+descriptor type: FREAK
+FREAK descriptor extraction in 0.006094 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 0.564539 ms
+Size of keypoints in the bounding box = 153
+#2 : DETECT KEYPOINTS done
+size = 153
+descriptor type: FREAK
+FREAK descriptor extraction in 0.001879 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.45546 ms
+Size of keypoints in the bounding box = 142
+#2 : DETECT KEYPOINTS done
+size = 142
+descriptor type: FREAK
+FREAK descriptor extraction in 0.006073 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.47374 ms
+Size of keypoints in the bounding box = 131
+#2 : DETECT KEYPOINTS done
+size = 131
+descriptor type: FREAK
+FREAK descriptor extraction in 0.007142 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.4485 ms
+Size of keypoints in the bounding box = 135
+#2 : DETECT KEYPOINTS done
+size = 135
+descriptor type: FREAK
+FREAK descriptor extraction in 0.006333 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+
+
+------------------
+FAST + AKAZE
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 3.1742 ms
+Size of keypoints in the bounding box = 141
+#2 : DETECT KEYPOINTS done
+size = 141
+descriptor type: AKAZE
+AKAZE descriptor extraction in 118.493 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 0.53614 ms
+Size of keypoints in the bounding box = 143
+#2 : DETECT KEYPOINTS done
+size = 143
+descriptor type: AKAZE
+AKAZE descriptor extraction in 120.718 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 01:57:10.721: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.35636 ms
+Size of keypoints in the bounding box = 140
+#2 : DETECT KEYPOINTS done
+size = 140
+descriptor type: AKAZE
+AKAZE descriptor extraction in 110.229 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.32292 ms
+Size of keypoints in the bounding box = 149
+#2 : DETECT KEYPOINTS done
+size = 149
+descriptor type: AKAZE
+AKAZE descriptor extraction in 121.15 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.42223 ms
+Size of keypoints in the bounding box = 139
+#2 : DETECT KEYPOINTS done
+size = 139
+descriptor type: AKAZE
+AKAZE descriptor extraction in 108.891 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.41053 ms
+Size of keypoints in the bounding box = 139
+#2 : DETECT KEYPOINTS done
+size = 139
+descriptor type: AKAZE
+AKAZE descriptor extraction in 103.111 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.29521 ms
+Size of keypoints in the bounding box = 153
+#2 : DETECT KEYPOINTS done
+size = 153
+descriptor type: AKAZE
+AKAZE descriptor extraction in 105.184 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.26782 ms
+Size of keypoints in the bounding box = 142
+#2 : DETECT KEYPOINTS done
+size = 142
+descriptor type: AKAZE
+AKAZE descriptor extraction in 105.373 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.35982 ms
+Size of keypoints in the bounding box = 131
+#2 : DETECT KEYPOINTS done
+size = 131
+descriptor type: AKAZE
+AKAZE descriptor extraction in 108.73 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 2.33639 ms
+Size of keypoints in the bounding box = 135
+#2 : DETECT KEYPOINTS done
+size = 135
+descriptor type: AKAZE
+AKAZE descriptor extraction in 108.964 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+
+
+
+------------------
+FAST + SIFT
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 4.61693 ms
+Size of keypoints in the bounding box = 141
+#2 : DETECT KEYPOINTS done
+size = 141
+descriptor type: SIFT
+SIFT descriptor extraction in 51.5825 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: FAST
+FAST descriptor extraction in 0.541951 ms
+Size of keypoints in the bounding box = 143
+#2 : DETECT KEYPOINTS done
+size = 143
+descriptor type: SIFT
+SIFT descriptor extraction in 35.5766 ms
+#3 : EXTRACT DESCRIPTORS done
+terminate called after throwing an instance of 'cv::Exception'
+  what():  OpenCV(4.1.1) /home/osboxes/app/opencv/modules/core/src/batch_distance.cpp:282: error: (-215:Assertion failed) (type == CV_8U && dtype == CV_32S) || dtype == CV_32F in function 'batchDistance'
+
+[1]    17037 abort (core dumped)  ./2D_feature_tracking
+
+#
+#
+#
+#
+#
+#
+#
+#
+------------------
+BRISK + BRISK
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 197.787 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 188.519 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 194.918 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 211.388 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:05:58.584: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 227.81 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 203.155 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 210.759 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 195.02 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 215.952 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 196.529 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 194.136 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 194.541 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 208.835 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 195.139 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 208.752 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 195.443 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 212.793 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 195.338 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 214.254 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 196.344 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+------------------
+BRISK + ORB
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 191.026 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 26.131 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 192.383 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 7.60983 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:08:26.591: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 208.221 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 6.84197 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 219.24 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 7.60364 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 216.863 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 7.31656 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 202.831 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 6.97119 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 207.07 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 6.92007 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 197.423 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 7.62303 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 199.635 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 7.13701 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 204.12 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 7.97816 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+------------------
+BRISK + FREAK
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 202.351 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 3.40831 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 189.379 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.00289 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:09:09.265: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 207.254 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003085 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 214.843 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003026 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 216.509 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003278 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 217.257 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003568 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 214.591 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003617 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 219.172 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.00351 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 204.37 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.0032 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 215.923 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003103 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+------------------
+BRISK + AKAZE
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 207.088 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 124.367 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 196.449 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 116.98 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:10:51.387: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 212.963 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 93.8213 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 210.166 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 96.4576 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 212.539 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 97.284 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 211.705 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 97.9295 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 212.264 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 95.3236 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 214.731 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 96.3877 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 193.124 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 91.2672 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 198.15 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 89.8229 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+
+
+------------------
+BRISK + SIFT
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 201.546 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 38.378 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 195.425 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 26.3343 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:12:29.504: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 197.117 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 16.7635 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 216.045 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 16.805 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 217.137 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 16.954 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 214.492 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 16.8227 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 216.611 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 17.8991 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 215.246 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 18.3822 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 195.278 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 15.9206 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: BRISK
+BRISK descriptor extraction in 215.877 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 17.218 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+#
+#
+#
+#
+#
+#
+#
+#
+------------------
+ ORB + BRISK
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 15.284 ms
+Size of keypoints in the bounding box = 87
+#2 : DETECT KEYPOINTS done
+size = 87
+descriptor type: BRISK
+BRISK descriptor extraction in 209.197 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 10.1753 ms
+Size of keypoints in the bounding box = 101
+#2 : DETECT KEYPOINTS done
+size = 101
+descriptor type: BRISK
+BRISK descriptor extraction in 207.974 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:13:42.545: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 7.36537 ms
+Size of keypoints in the bounding box = 105
+#2 : DETECT KEYPOINTS done
+size = 105
+descriptor type: BRISK
+BRISK descriptor extraction in 196.037 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 25.2014 ms
+Size of keypoints in the bounding box = 110
+#2 : DETECT KEYPOINTS done
+size = 110
+descriptor type: BRISK
+BRISK descriptor extraction in 199.963 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 24.771 ms
+Size of keypoints in the bounding box = 106
+#2 : DETECT KEYPOINTS done
+size = 106
+descriptor type: BRISK
+BRISK descriptor extraction in 198.064 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 23.4986 ms
+Size of keypoints in the bounding box = 121
+#2 : DETECT KEYPOINTS done
+size = 121
+descriptor type: BRISK
+BRISK descriptor extraction in 198.198 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 25.2416 ms
+Size of keypoints in the bounding box = 128
+#2 : DETECT KEYPOINTS done
+size = 128
+descriptor type: BRISK
+BRISK descriptor extraction in 196.08 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 23.5126 ms
+Size of keypoints in the bounding box = 120
+#2 : DETECT KEYPOINTS done
+size = 120
+descriptor type: BRISK
+BRISK descriptor extraction in 197.439 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 7.07013 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: BRISK
+BRISK descriptor extraction in 195.289 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 24.7274 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: BRISK
+BRISK descriptor extraction in 197.747 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+------------------
+ ORB + ORB
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 11.6355 ms
+Size of keypoints in the bounding box = 87
+#2 : DETECT KEYPOINTS done
+size = 87
+descriptor type: ORB
+ORB descriptor extraction in 8.08154 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 9.7334 ms
+Size of keypoints in the bounding box = 101
+#2 : DETECT KEYPOINTS done
+size = 101
+descriptor type: ORB
+ORB descriptor extraction in 11.9947 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:14:44.184: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 7.10051 ms
+Size of keypoints in the bounding box = 105
+#2 : DETECT KEYPOINTS done
+size = 105
+descriptor type: ORB
+ORB descriptor extraction in 7.15198 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 7.07141 ms
+Size of keypoints in the bounding box = 110
+#2 : DETECT KEYPOINTS done
+size = 110
+descriptor type: ORB
+ORB descriptor extraction in 6.7445 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 25.1117 ms
+Size of keypoints in the bounding box = 106
+#2 : DETECT KEYPOINTS done
+size = 106
+descriptor type: ORB
+ORB descriptor extraction in 18.9087 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 25.926 ms
+Size of keypoints in the bounding box = 121
+#2 : DETECT KEYPOINTS done
+size = 121
+descriptor type: ORB
+ORB descriptor extraction in 17.6534 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 24.7065 ms
+Size of keypoints in the bounding box = 128
+#2 : DETECT KEYPOINTS done
+size = 128
+descriptor type: ORB
+ORB descriptor extraction in 10.2647 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 26.7121 ms
+Size of keypoints in the bounding box = 120
+#2 : DETECT KEYPOINTS done
+size = 120
+descriptor type: ORB
+ORB descriptor extraction in 15.9562 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 15.3635 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: ORB
+ORB descriptor extraction in 9.8747 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 27.5441 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: ORB
+ORB descriptor extraction in 9.07547 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+------------------
+ ORB + FREAK
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 10.8682 ms
+Size of keypoints in the bounding box = 87
+#2 : DETECT KEYPOINTS done
+size = 87
+descriptor type: FREAK
+FREAK descriptor extraction in 13.709 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 8.01499 ms
+Size of keypoints in the bounding box = 101
+#2 : DETECT KEYPOINTS done
+size = 101
+descriptor type: FREAK
+FREAK descriptor extraction in 0.001926 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:15:24.198: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 6.96433 ms
+Size of keypoints in the bounding box = 105
+#2 : DETECT KEYPOINTS done
+size = 105
+descriptor type: FREAK
+FREAK descriptor extraction in 0.001823 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 24.8021 ms
+Size of keypoints in the bounding box = 110
+#2 : DETECT KEYPOINTS done
+size = 110
+descriptor type: FREAK
+FREAK descriptor extraction in 0.00365 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 24.4623 ms
+Size of keypoints in the bounding box = 106
+#2 : DETECT KEYPOINTS done
+size = 106
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003592 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 26.2995 ms
+Size of keypoints in the bounding box = 121
+#2 : DETECT KEYPOINTS done
+size = 121
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003133 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 26.0001 ms
+Size of keypoints in the bounding box = 128
+#2 : DETECT KEYPOINTS done
+size = 128
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003472 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 26.6205 ms
+Size of keypoints in the bounding box = 120
+#2 : DETECT KEYPOINTS done
+size = 120
+descriptor type: FREAK
+FREAK descriptor extraction in 0.0037 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 25.6252 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003267 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 23.403 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003149 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+------------------
+ ORB + AKAZE
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 15.0305 ms
+Size of keypoints in the bounding box = 87
+#2 : DETECT KEYPOINTS done
+size = 87
+descriptor type: AKAZE
+AKAZE descriptor extraction in 105.505 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 8.85239 ms
+Size of keypoints in the bounding box = 101
+#2 : DETECT KEYPOINTS done
+size = 101
+descriptor type: AKAZE
+AKAZE descriptor extraction in 97.443 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:16:16.128: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 24.7949 ms
+Size of keypoints in the bounding box = 105
+#2 : DETECT KEYPOINTS done
+size = 105
+descriptor type: AKAZE
+AKAZE descriptor extraction in 92.5937 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 7.18752 ms
+Size of keypoints in the bounding box = 110
+#2 : DETECT KEYPOINTS done
+size = 110
+descriptor type: AKAZE
+AKAZE descriptor extraction in 90.3334 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 25.1895 ms
+Size of keypoints in the bounding box = 106
+#2 : DETECT KEYPOINTS done
+size = 106
+descriptor type: AKAZE
+AKAZE descriptor extraction in 93.4652 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 23.6355 ms
+Size of keypoints in the bounding box = 121
+#2 : DETECT KEYPOINTS done
+size = 121
+descriptor type: AKAZE
+AKAZE descriptor extraction in 93.1461 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 26.0852 ms
+Size of keypoints in the bounding box = 128
+#2 : DETECT KEYPOINTS done
+size = 128
+descriptor type: AKAZE
+AKAZE descriptor extraction in 93.3455 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 22.5648 ms
+Size of keypoints in the bounding box = 120
+#2 : DETECT KEYPOINTS done
+size = 120
+descriptor type: AKAZE
+AKAZE descriptor extraction in 93.7083 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 25.5478 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: AKAZE
+AKAZE descriptor extraction in 94.7169 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 24.9226 ms
+Size of keypoints in the bounding box = 117
+#2 : DETECT KEYPOINTS done
+size = 117
+descriptor type: AKAZE
+AKAZE descriptor extraction in 93.7609 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+------------------
+ ORB + SIFT
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 25.4036 ms
+Size of keypoints in the bounding box = 87
+#2 : DETECT KEYPOINTS done
+size = 87
+descriptor type: SIFT
+SIFT descriptor extraction in 84.3008 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: ORB
+ORB descriptor extraction in 7.15551 ms
+Size of keypoints in the bounding box = 101
+#2 : DETECT KEYPOINTS done
+size = 101
+descriptor type: SIFT
+SIFT descriptor extraction in 82.6087 ms
+#3 : EXTRACT DESCRIPTORS done
+terminate called after throwing an instance of 'cv::Exception'
+  what():  OpenCV(4.1.1) /home/osboxes/app/opencv/modules/core/src/batch_distance.cpp:282: error: (-215:Assertion failed) (type == CV_8U && dtype == CV_32S) || dtype == CV_32F in function 'batchDistance'
+
+[1]    19202 abort (core dumped)  ./2D_feature_tracking
+
+#
+#
+#
+#
+#
+#
+#
+#
+------------------
+AKAZE + BRISK
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 101.136 ms
+Size of keypoints in the bounding box = 162
+#2 : DETECT KEYPOINTS done
+size = 162
+descriptor type: BRISK
+BRISK descriptor extraction in 204.5 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 90.4226 ms
+Size of keypoints in the bounding box = 157
+#2 : DETECT KEYPOINTS done
+size = 157
+descriptor type: BRISK
+BRISK descriptor extraction in 217.606 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:18:10.595: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 107.302 ms
+Size of keypoints in the bounding box = 159
+#2 : DETECT KEYPOINTS done
+size = 159
+descriptor type: BRISK
+BRISK descriptor extraction in 195.573 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 94.4262 ms
+Size of keypoints in the bounding box = 154
+#2 : DETECT KEYPOINTS done
+size = 154
+descriptor type: BRISK
+BRISK descriptor extraction in 195.193 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 95.1735 ms
+Size of keypoints in the bounding box = 162
+#2 : DETECT KEYPOINTS done
+size = 162
+descriptor type: BRISK
+BRISK descriptor extraction in 198.826 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 88.5616 ms
+Size of keypoints in the bounding box = 163
+#2 : DETECT KEYPOINTS done
+size = 163
+descriptor type: BRISK
+BRISK descriptor extraction in 196 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 90.3996 ms
+Size of keypoints in the bounding box = 173
+#2 : DETECT KEYPOINTS done
+size = 173
+descriptor type: BRISK
+BRISK descriptor extraction in 195.293 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 89.0883 ms
+Size of keypoints in the bounding box = 175
+#2 : DETECT KEYPOINTS done
+size = 175
+descriptor type: BRISK
+BRISK descriptor extraction in 195.401 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 93.0598 ms
+Size of keypoints in the bounding box = 175
+#2 : DETECT KEYPOINTS done
+size = 175
+descriptor type: BRISK
+BRISK descriptor extraction in 207.546 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 89.5036 ms
+Size of keypoints in the bounding box = 175
+#2 : DETECT KEYPOINTS done
+size = 175
+descriptor type: BRISK
+BRISK descriptor extraction in 195.315 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+------------------
+AKAZE + ORB
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 111.419 ms
+Size of keypoints in the bounding box = 162
+#2 : DETECT KEYPOINTS done
+size = 162
+descriptor type: ORB
+ORB descriptor extraction in 16.4654 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 89.275 ms
+Size of keypoints in the bounding box = 157
+#2 : DETECT KEYPOINTS done
+size = 157
+descriptor type: ORB
+ORB descriptor extraction in 7.15698 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:18:59.123: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 93.3582 ms
+Size of keypoints in the bounding box = 159
+#2 : DETECT KEYPOINTS done
+size = 159
+descriptor type: ORB
+ORB descriptor extraction in 7.42604 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 122.041 ms
+Size of keypoints in the bounding box = 154
+#2 : DETECT KEYPOINTS done
+size = 154
+descriptor type: ORB
+ORB descriptor extraction in 6.64504 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 107.921 ms
+Size of keypoints in the bounding box = 162
+#2 : DETECT KEYPOINTS done
+size = 162
+descriptor type: ORB
+ORB descriptor extraction in 7.12085 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 111.788 ms
+Size of keypoints in the bounding box = 163
+#2 : DETECT KEYPOINTS done
+size = 163
+descriptor type: ORB
+ORB descriptor extraction in 6.75024 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 97.4996 ms
+Size of keypoints in the bounding box = 173
+#2 : DETECT KEYPOINTS done
+size = 173
+descriptor type: ORB
+ORB descriptor extraction in 6.95507 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 111.164 ms
+Size of keypoints in the bounding box = 175
+#2 : DETECT KEYPOINTS done
+size = 175
+descriptor type: ORB
+ORB descriptor extraction in 6.79917 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 117.858 ms
+Size of keypoints in the bounding box = 175
+#2 : DETECT KEYPOINTS done
+size = 175
+descriptor type: ORB
+ORB descriptor extraction in 7.28894 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 115.167 ms
+Size of keypoints in the bounding box = 175
+#2 : DETECT KEYPOINTS done
+size = 175
+descriptor type: ORB
+ORB descriptor extraction in 7.38365 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+------------------
+AKAZE + FREAK
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 99.404 ms
+Size of keypoints in the bounding box = 162
+#2 : DETECT KEYPOINTS done
+size = 162
+descriptor type: FREAK
+FREAK descriptor extraction in 3.03446 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 87.2013 ms
+Size of keypoints in the bounding box = 157
+#2 : DETECT KEYPOINTS done
+size = 157
+descriptor type: FREAK
+FREAK descriptor extraction in 0.002552 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:19:38.780: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 90.9244 ms
+Size of keypoints in the bounding box = 159
+#2 : DETECT KEYPOINTS done
+size = 159
+descriptor type: FREAK
+FREAK descriptor extraction in 0.002691 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 110.394 ms
+Size of keypoints in the bounding box = 154
+#2 : DETECT KEYPOINTS done
+size = 154
+descriptor type: FREAK
+FREAK descriptor extraction in 0.00266 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 112.491 ms
+Size of keypoints in the bounding box = 162
+#2 : DETECT KEYPOINTS done
+size = 162
+descriptor type: FREAK
+FREAK descriptor extraction in 0.002617 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 95.7755 ms
+Size of keypoints in the bounding box = 163
+#2 : DETECT KEYPOINTS done
+size = 163
+descriptor type: FREAK
+FREAK descriptor extraction in 0.002655 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 110.676 ms
+Size of keypoints in the bounding box = 173
+#2 : DETECT KEYPOINTS done
+size = 173
+descriptor type: FREAK
+FREAK descriptor extraction in 0.002865 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 90.8728 ms
+Size of keypoints in the bounding box = 175
+#2 : DETECT KEYPOINTS done
+size = 175
+descriptor type: FREAK
+FREAK descriptor extraction in 0.002925 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 113.215 ms
+Size of keypoints in the bounding box = 175
+#2 : DETECT KEYPOINTS done
+size = 175
+descriptor type: FREAK
+FREAK descriptor extraction in 0.002722 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 93.0782 ms
+Size of keypoints in the bounding box = 175
+#2 : DETECT KEYPOINTS done
+size = 175
+descriptor type: FREAK
+FREAK descriptor extraction in 0.002694 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+------------------
+AKAZE + AKAZE
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 109.843 ms
+Size of keypoints in the bounding box = 162
+#2 : DETECT KEYPOINTS done
+size = 162
+descriptor type: AKAZE
+AKAZE descriptor extraction in 86.4531 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 89.3839 ms
+Size of keypoints in the bounding box = 157
+#2 : DETECT KEYPOINTS done
+size = 157
+descriptor type: AKAZE
+AKAZE descriptor extraction in 107.607 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:20:20.476: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 108.913 ms
+Size of keypoints in the bounding box = 159
+#2 : DETECT KEYPOINTS done
+size = 159
+descriptor type: AKAZE
+AKAZE descriptor extraction in 91.7874 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 105.608 ms
+Size of keypoints in the bounding box = 154
+#2 : DETECT KEYPOINTS done
+size = 154
+descriptor type: AKAZE
+AKAZE descriptor extraction in 98.2128 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 97.3085 ms
+Size of keypoints in the bounding box = 162
+#2 : DETECT KEYPOINTS done
+size = 162
+descriptor type: AKAZE
+AKAZE descriptor extraction in 97.5079 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 107.444 ms
+Size of keypoints in the bounding box = 163
+#2 : DETECT KEYPOINTS done
+size = 163
+descriptor type: AKAZE
+AKAZE descriptor extraction in 99.478 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 94.8807 ms
+Size of keypoints in the bounding box = 173
+#2 : DETECT KEYPOINTS done
+size = 173
+descriptor type: AKAZE
+AKAZE descriptor extraction in 95.8132 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 95.9632 ms
+Size of keypoints in the bounding box = 175
+#2 : DETECT KEYPOINTS done
+size = 175
+descriptor type: AKAZE
+AKAZE descriptor extraction in 97.3106 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 96.7751 ms
+Size of keypoints in the bounding box = 175
+#2 : DETECT KEYPOINTS done
+size = 175
+descriptor type: AKAZE
+AKAZE descriptor extraction in 97.9758 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 92.1638 ms
+Size of keypoints in the bounding box = 175
+#2 : DETECT KEYPOINTS done
+size = 175
+descriptor type: AKAZE
+AKAZE descriptor extraction in 96.1581 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+------------------
+AKAZE + SIFT
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 102.547 ms
+Size of keypoints in the bounding box = 162
+#2 : DETECT KEYPOINTS done
+size = 162
+descriptor type: SIFT
+SIFT descriptor extraction in 36.3745 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: AKAZE
+AKAZE descriptor extraction in 90.149 ms
+Size of keypoints in the bounding box = 157
+#2 : DETECT KEYPOINTS done
+size = 157
+descriptor type: SIFT
+SIFT descriptor extraction in 37.3937 ms
+#3 : EXTRACT DESCRIPTORS done
+terminate called after throwing an instance of 'cv::Exception'
+  what():  OpenCV(4.1.1) /home/osboxes/app/opencv/modules/core/src/batch_distance.cpp:282: error: (-215:Assertion failed) (type == CV_8U && dtype == CV_32S) || dtype == CV_32F in function 'batchDistance'
+
+[1]    19860 abort (core dumped)  ./2D_feature_tracking
+
+#
+#
+#
+#
+#
+#
+#
+#
+------------------
+SIFT + BRISK
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 27.3604 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 198.985 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 21.3534 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 198.199 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:22:44.807: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 49.2952 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 195.275 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 15.1696 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 198.731 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 15.034 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 207.406 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 25.8041 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 211.718 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 17.6418 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 215.133 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 25.2794 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 214.364 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 15.5481 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 222.177 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 16.781 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: BRISK
+BRISK descriptor extraction in 209.702 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+------------------
+SIFT + ORB
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 39.3687 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 27.2333 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 26.0585 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 7.83389 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:23:34.773: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 18.476 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 7.18499 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 45.0069 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 7.44784 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 35.8314 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 7.29173 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 46.2121 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 7.79672 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 47.5396 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 11.5096 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 39.2952 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 7.89226 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 44.4925 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 8.44987 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 46.7688 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: ORB
+ORB descriptor extraction in 8.04036 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+------------------
+SIFT + FREAK
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 33.4984 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 1.12259 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 20.3246 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.00359 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:24:23.258: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 38.3214 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.006669 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 45.0612 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.004108 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 33.0258 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.006841 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 34.1763 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.00701 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 29.0195 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003431 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 47.3129 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.00349 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 46.9681 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.003918 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 37.5411 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: FREAK
+FREAK descriptor extraction in 0.006693 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+------------------
+SIFT + AKAZE
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 28.4238 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 106.905 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 21.7445 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 106.978 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:25:04.300: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 19.3597 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 102.497 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 32.9454 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 94.5663 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 17.9758 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 93.7519 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 16.4809 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 94.58 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 31.1177 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 92.2994 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 18.5724 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 90.4027 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 17.7141 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 88.3706 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 46.3726 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: AKAZE
+AKAZE descriptor extraction in 93.9028 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+------------------
+SIFT + SIFT
+------------------
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 28.108 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 25.813 ms
+#3 : EXTRACT DESCRIPTORS done
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 26.4865 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 25.9255 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Gtk-Message: 02:22:04.033: Failed to load module "canberra-gtk-module"
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 38.9471 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 13.9864 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 28.6546 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 15.5774 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 36.385 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 16.315 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 42.7032 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 15.5688 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 35.3231 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 16.5637 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 42.6289 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 15.9748 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 31.3539 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 19.7301 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+#1 : LOAD IMAGE INTO BUFFER done
+descriptor type: SIFT
+SIFT descriptor extraction in 43.4961 ms
+Size of keypoints in the bounding box = 0
+#2 : DETECT KEYPOINTS done
+size = 0
+descriptor type: SIFT
+SIFT descriptor extraction in 18.3176 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Press key to continue to next image
+
+
+
+
+
+
+
+
