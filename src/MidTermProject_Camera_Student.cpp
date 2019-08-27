@@ -114,11 +114,11 @@ int main(int argc, const char *argv[])
 	    botRight_y=rec.br().y;
 	    bool bFocusOnVehicle = true;//true;
         if(bFocusOnVehicle)
-	{
+        {
             // draw rect on image
 	        //cout<<"keypoints size:= "<<keypoints.size()<<endl;
             vector<cv::KeyPoint> filtered; 
-	    for(int i=0; i< keypoints.size(); i++)
+	       for(int i=0; i< keypoints.size(); i++)
             {                
                 if(  ( keypoints[i].pt.x > topLeft_x)   &&  (keypoints[i].pt.x < botRight_x) ){
                     if ( (keypoints[i].pt.y > topLeft_y)  &&  (keypoints[i].pt.y < botRight_y) ){
@@ -127,7 +127,7 @@ int main(int argc, const char *argv[])
                 }
             }
             keypoints = filtered;   
-	    cout<<"Size of keypoints in the bounding box = "<<keypoints.size()<<endl;
+	       cout<<"Size of keypoints in the bounding box = "<<keypoints.size()<<endl;
         }
         //cout << "flag 1"<< endl;
         //// EOF STUDENT ASSIGNMENT

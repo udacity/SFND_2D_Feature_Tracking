@@ -32,3 +32,58 @@ See the classroom instruction and code comments for more details on each of thes
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./2D_feature_tracking`.
+
+
+
+
+## Mid-Term Report
+
+
+### DataBuffer Optimization
+
+
+2 frames buffer is requested.
+
+```
+// push image into data frame buffer
+unsigned dataBufferSize = 2; <--  the number we chose.
+DataFrame frame;
+frame.cameraImg = imgGray;
+dataBuffer.push_back(frame);
+if( dataBuffer.size() > dataBufferSize )
+{
+	dataBuffer.erase(dataBuffer.begin()); //delet first of element
+}
+```
+
+
+
+### Keypoints
+
+keypoints within a bounding box is requrested others are removed. 
+
+```
+bool bFocusOnVehicle = true;//true;
+if(bFocusOnVehicle)
+{
+    // draw rect on image
+	vector<cv::KeyPoint> filtered; 
+	for(int i=0; i< keypoints.size(); i++)
+    {                
+		if(  ( keypoints[i].pt.x > topLeft_x)   &&  (keypoints[i].pt.x < botRight_x) ){
+			if ( (keypoints[i].pt.y > topLeft_y)  &&  (keypoints[i].pt.y < botRight_y) ){
+            	filtered.push_back(keypoints[i]);
+            }
+        }
+    }
+    keypoints = filtered;   
+	cout<<"Size of keypoints in the bounding box = "<<keypoints.size()<<endl;
+}
+```
+
+with orb keypoints detection I did not know why the keypoints are not filtered, the 
+
+### Descriptors
+
+
+### Performance

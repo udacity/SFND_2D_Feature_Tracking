@@ -1,3 +1,0 @@
-/Users/tongling/Desktop/SFND_2D_Feature_Tracking/build/CMakeFiles/rebuild_cache.dir
-/Users/tongling/Desktop/SFND_2D_Feature_Tracking/build/CMakeFiles/edit_cache.dir
-/Users/tongling/Desktop/SFND_2D_Feature_Tracking/build/CMakeFiles/2D_feature_tracking.dir
