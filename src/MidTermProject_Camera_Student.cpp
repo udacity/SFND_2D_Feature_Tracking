@@ -63,9 +63,15 @@ int main(int argc, const char *argv[])
         DataFrame frame;
         frame.cameraImg = imgGray;
         dataBuffer.push_back(frame);
+        if (dataBuffer.size()  > dataBufferSize)
+        {
+            cout << "dataBuffer size before removal is ="<< dataBuffer.size() << endl;
+            dataBuffer.erase(dataBuffer.begin());
+        }
+        cout << "#1 : LOAD IMAGE INTO BUFFER done. dataBuffer size is ="<< dataBuffer.size() << endl;
 
         //// EOF STUDENT ASSIGNMENT
-        cout << "#1 : LOAD IMAGE INTO BUFFER done" << endl;
+
 
         /* DETECT IMAGE KEYPOINTS */
 
