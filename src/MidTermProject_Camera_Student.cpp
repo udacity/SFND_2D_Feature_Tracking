@@ -82,6 +82,7 @@ int main(int argc, const char *argv[])
         //// STUDENT ASSIGNMENT
         //// TASK MP.2 -> add the following keypoint detectors in file matching2D.cpp and enable string-based selection based on detectorType
         //// -> HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
+        std::vector<string> detectorsModern {"FAST", "BRISK", "ORB", "AKAZE", "SIFT"};
 
         if (detectorType.compare("SHITOMASI") == 0)
         {
@@ -91,10 +92,13 @@ int main(int argc, const char *argv[])
         {
             detKeypointsHarris(keypoints, imgGray, false);
         }
-        else
+        else if (std::find(detectorsModern.begin(), detectorsModern.end(), detectorType) != detectorsModern.end())
         {
             // FAST, BRISK, ORB, AKAZE, SIFT
             detKeypointsModern(keypoints, imgGray, detectorType, false);
+        }else
+        {
+            //invalid
         }
 
         //// EOF STUDENT ASSIGNMENT
