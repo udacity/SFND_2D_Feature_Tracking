@@ -63,6 +63,13 @@ int main(int argc, const char *argv[])
         DataFrame frame;
         frame.cameraImg = imgGray;
         dataBuffer.push_back(frame);
+        int dataBufferSize = 5;
+        if (dataBuffer.size() > dataBufferSize)
+        {
+            dataBuffer[0] = dataBuffer[1];
+            dataBuffer.pop_back();
+        }
+        dataBuffer.push_back(frame);
 
         //// EOF STUDENT ASSIGNMENT
         cout << "#1 : LOAD IMAGE INTO BUFFER done" << endl;
