@@ -40,18 +40,6 @@ int main(int argc, const char *argv[])
     vector<DataFrame> dataBuffer; // list of data frames which are held in memory at the same time
     bool bVis = false;            // visualize results
 
-    //Detector & Descriptor, Matcher etc. goes here to prevent redefining on loop 
-    string detectorType = "SHITOMASI";
-    string descriptorType = "BRISK"; // BRIEF, ORB, FREAK, AKAZE, SIFT
-    
-    string matcherType = "MAT_BF";        // MAT_BF, MAT_FLANN
-    string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
-    string selectorType = "SEL_NN";       // SEL_NN, SEL_KNN
-    
-    //Defining variable for TASK MP.3 
-    // only keep keypoints on the preceding vehicle
-    bool bFocusOnVehicle = true;
-    cv::Rect vehicleRect(535, 180, 180, 150);
     /* MAIN LOOP OVER ALL IMAGES */
 
     for (size_t imgIndex = 0; imgIndex <= imgEndIndex - imgStartIndex; imgIndex++)
@@ -83,6 +71,7 @@ int main(int argc, const char *argv[])
 
         // extract 2D keypoints from current image
         vector<cv::KeyPoint> keypoints; // create empty feature list for current image
+        string detectorType = "SHITOMASI";
 
         //// STUDENT ASSIGNMENT
         //// TASK MP.2 -> add the following keypoint detectors in file matching2D.cpp and enable string-based selection based on detectorType
@@ -101,6 +90,9 @@ int main(int argc, const char *argv[])
         //// STUDENT ASSIGNMENT
         //// TASK MP.3 -> only keep keypoints on the preceding vehicle
 
+        // only keep keypoints on the preceding vehicle
+        bool bFocusOnVehicle = true;
+        cv::Rect vehicleRect(535, 180, 180, 150);
         if (bFocusOnVehicle)
         {
             // ...
@@ -133,6 +125,7 @@ int main(int argc, const char *argv[])
         //// -> BRIEF, ORB, FREAK, AKAZE, SIFT
 
         cv::Mat descriptors;
+        string descriptorType = "BRISK"; // BRIEF, ORB, FREAK, AKAZE, SIFT
         descKeypoints((dataBuffer.end() - 1)->keypoints, (dataBuffer.end() - 1)->cameraImg, descriptors, descriptorType);
         //// EOF STUDENT ASSIGNMENT
 
@@ -147,6 +140,9 @@ int main(int argc, const char *argv[])
             /* MATCH KEYPOINT DESCRIPTORS */
 
             vector<cv::DMatch> matches;
+            string matcherType = "MAT_BF";        // MAT_BF, MAT_FLANN
+            string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
+            string selectorType = "SEL_NN";       // SEL_NN, SEL_KNN
 
             //// STUDENT ASSIGNMENT
             //// TASK MP.5 -> add FLANN matching in file matching2D.cpp
